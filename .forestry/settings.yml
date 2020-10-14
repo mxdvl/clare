@@ -5,15 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: ''
-  label: Writings
+  path: 'content'
+  label: Content
   create: all
-  match: src/routes/writings/**/*
-- type: document
-  path: src/routes/about.svelte
-  label: About
+  match: /**/*
 upload_dir: static
-public_path: "/uploads"
+public_path: "/static"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
