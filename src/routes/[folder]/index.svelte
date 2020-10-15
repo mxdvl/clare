@@ -1,36 +1,37 @@
 <script context="module">
-  export function preload() {
-    return this.fetch(`words.json`)
-      .then((r) => r.json())
-      .then((posts) => {
-        return { posts };
-      });
-  }
+	export function preload({ params }) {
+		return this.fetch(`${params.folder}.json`)
+			.then((r) => r.json())
+			.then((posts) => {
+				return { posts, folder: params.folder };
+			});
+	}
 </script>
 
 <script>
-  export let posts;
+	export let posts;
+	export let folder;
 </script>
 
 <style>
-  ul {
-    margin: 0 0 1em 0;
-    line-height: 1.5;
-  }
+	ul {
+		margin: 0 0 1em 0;
+		line-height: 1.5;
+	}
 </style>
 
 <svelte:head>
-  <title>Blog</title>
+	<title>Blog</title>
 </svelte:head>
 
-<h1>Recent posts</h1>
+<h1>Recent {folder}</h1>
 
 <ul>
-  {#each posts as post}
-    <!-- we're using the non-standard `rel=prefetch` attribute to
+	{#each posts as post}
+		<!-- we're using the non-standard `rel=prefetch` attribute to
 				tell Sapper to load the data for the page as soon as
 				the user hovers over the link or taps it, instead of
 				waiting for the 'click' event -->
-    <li><a rel="prefetch" href="words/{post.slug}">{post.title}</a></li>
-  {/each}
+		<li><a rel="prefetch" href="{folder}/{post.slug}">{post.title}</a></li>
+	{/each}
 </ul>
