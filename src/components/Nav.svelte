@@ -4,11 +4,10 @@
 
 <style>
 	nav {
-		border-bottom: 1px solid rgba(255, 62, 0, 0.1);
 		font-weight: 300;
 		padding: 0 1em;
-
-		max-width: 54rem;
+		height: 3.5rem;
+		margin: 0 auto;
 	}
 
 	ul {
@@ -26,27 +25,46 @@
 	li {
 		display: block;
 		float: left;
+		margin: 0 0.5rem;
+		font-family: "Sacramento", cursive;
+		font-size: 2rem;
 	}
 
 	[aria-current] {
 		position: relative;
 		display: inline-block;
-	}
-
-	[aria-current]::after {
-		position: absolute;
-		content: "";
-		width: calc(100% - 1em);
-		height: 2px;
-		background-color: rgb(255, 62, 0);
-		display: block;
-		bottom: -1px;
+		z-index: 1;
+		/* box-shadow: 0.125rem -0.25rem 0.25rem #0133, 1px -1px 1px #0133; */
+		box-shadow: 0 0 0 2px #0003;
 	}
 
 	a {
 		text-decoration: none;
-		padding: 1em 0.5em;
+		padding: 0.25rem 1rem;
 		display: block;
+		background: rosybrown;
+		padding-bottom: 1rem;
+	}
+
+	:global(a.home) {
+		background-color: maroon;
+		color: oldlace;
+		font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	}
+
+	:global(a.words) {
+		background-color: paleturquoise;
+		transform: rotate(3deg);
+	}
+
+	:global(a.snaps) {
+		background-color: palegreen;
+		transform: rotate(-1deg);
+	}
+
+	:global(a.notes) {
+		background-color: palegoldenrod;
+		transform: rotate(1.5deg);
 	}
 </style>
 
@@ -54,8 +72,9 @@
 	<ul>
 		<li>
 			<a
+				class="home"
 				aria-current={segment === undefined ? 'page' : undefined}
-				href=".">home</a>
+				href=".">CW</a>
 		</li>
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
@@ -64,6 +83,7 @@
 			<li>
 				<a
 					rel="prefetch"
+					class={folder}
 					aria-current={segment === folder ? 'page' : undefined}
 					href={folder}>{folder}</a>
 			</li>
