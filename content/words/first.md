@@ -1,26 +1,36 @@
 ---
-title: First poem
-date: 2020-05-01
+title: Political Promises
+date: 2017-06-07T00:00:00+01:00
 
 ---
-This is interesting!
+Calorific words weigh us down
 
-Something something _bean…_
+We're way too saturated
 
-| 1 | 2 | 3 |
-| --- | --- | --- |
-| A | B | C |
+By your suited and booted jargon
 
-## Second title
+The public wants answers
 
-> Blockquote
+Words solidified by your creations
 
-## A nice list
+Stop shifting the blame
 
-* Apple
-* Juice
-* Eggs
-* Nothing
-* Ever lasts
+Go exceed our expectations
 
-![](/static/successkid.jpg)
+For the youth don't know where to look
+
+For lack of inspiration
+
+So they walk around in circles
+
+In hope and anticipation
+
+That someday you will stop and look
+
+For they are the future
+
+All-seeing, current, educated eyes
+
+Who lament for a time they will never know.
+
+\- Clare Welch
