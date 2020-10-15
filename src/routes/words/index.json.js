@@ -1,16 +1,22 @@
-import posts from './_posts.js';
+import fs from 'fs';
+import path from 'path';
 
-const contents = JSON.stringify(posts.map(post => {
-	return {
-		title: post.title,
-		slug: post.slug
-	};
-}));
+import grayMatter from "gray-matter";
+
+const getAllPosts = () =>
+	fs.readdirSync(path.resolve('content','words')).map(file => {
+		const post = fs.readFileSync(path.resolve('content','words', file), 'utf-8');
+		const data = grayMatter(post).data
+		data.slug = file.replace(".md",'');
+		
+		return data;
+	})
 
 export function get(req, res) {
 	res.writeHead(200, {
 		'Content-Type': 'application/json'
 	});
 
-	res.end(contents);
+	const posts = getAllPosts();
+	res.end(JSON.stringify(posts));
 }

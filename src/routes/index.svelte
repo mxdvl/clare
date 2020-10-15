@@ -1,3 +1,7 @@
+<script context="module">
+  const content = "hello, there";
+</script>
+
 <style>
   h1,
   figure,
@@ -13,17 +17,7 @@
     margin: 0 0 0.5em 0;
   }
 
-  figure {
-    margin: 0 0 1em 0;
-  }
-
-  img {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 0 1em 0;
-  }
-
-  p {
+  :global(p) {
     margin: 1em auto;
   }
 
@@ -35,12 +29,9 @@
 </style>
 
 <svelte:head>
-  <title>Sapper project template</title>
+  <title>CW’s online notebook</title>
 </svelte:head>
 
 <h1>New website!</h1>
 
-<p>
-  <strong>Try editing this file (src/routes/index.svelte) to test live
-    reloading.</strong>
-</p>
+{@html content}
