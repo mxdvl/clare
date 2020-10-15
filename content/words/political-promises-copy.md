@@ -1,36 +1,26 @@
 ---
-title: Political Promises-(copy)
-date: 2017-06-07T00:00:00+01:00
+title: IWD
+date: 2017-03-06T00:00:00Z
 
 ---
-Calorific words weigh us down
+You get up and heckle us, look like such a clown.
 
-We're way too saturated
+Do you think you win at publicly slamming us down?
 
-By your suited and booted jargon
+You're weaker, smaller and far less intelligent,
 
-The public wants answers
+Up your game, because you're not so eloquent.
 
-Words solidified by your creations
+Whilst across the Atlantic Ocean,
 
-Stop shifting the blame
+another moans, tweets and gripes.
 
-Go exceed our expectations
+But Malala, she travels, inspires and writes.
 
-For the youth don't know where to look
+Stop flashing us in magazines and selfies looking all pristine.
 
-For lack of inspiration
-
-So they walk around in circles
-
-In hope and anticipation
-
-That someday you will stop and look
-
-For they are the future
-
-All-seeing, current, educated eyes
-
-Who lament for a time they will never know.
+Right now, we need it more than ever, #IWD2017.
 
 \- Clare Welch
+
+In response to International Women's Day and the backdrop of political figures shamelessly berating women in the public domain. 
