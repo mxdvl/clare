@@ -1,26 +1,40 @@
 ---
 title: Izakaya
-date: 2017-03-06T00:00:00Z
+date: 2017-02-01T00:00:00Z
 
 ---
-You get up and heckle us, look like such a clown.
+Crammed in
 
-Do you think you win at publicly slamming us down?
+Smoked-filled eyes
 
-You're weaker, smaller and far less intelligent,
+Grills churn out
 
-Up your game, because you're not so eloquent.
+Meat-on-sticks
 
-Whilst across the Atlantic Ocean,
+Biru, niku
 
-another moans, tweets and gripes.
+Suited and booted
 
-But Malala, she travels, inspires and writes.
+Coat-dressed walls
 
-Stop flashing us in magazines and selfies looking all pristine.
+Tables touch
 
-Right now, we need it more than ever, #IWD2017.
+No space to move.
 
-\- Clare Welch
+“Sumimasen!”
 
-In response to International Women's Day and the backdrop of political figures shamelessly berating women in the public domain. 
+Biru, niku
+
+Meat-infused air
+
+Gradually loosened ties
+
+Night goes on…
+
+Another late one
+
+in the office
+
+An izakaya is more than just a place to eat and drink. It has heart. It's a place where everything is alive, from the meat turning on sticks to the waiters speedily shuffling from table to table to the calls of "sumimasen". It's where graduates drink too much during a nomihodai. It's an office. It's where transactions are made. It's where working relationships are cemented. 
+
+It's an izakaya. 
