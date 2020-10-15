@@ -1,26 +1,41 @@
 ---
-title: Street Life
-date: 2017-03-06T00:00:00Z
+title: Consumer Campaigns
+date: 2019-08-23T00:00:00+01:00
 
 ---
-You get up and heckle us, look like such a clown.
+Box up the problem hoping it will all go away
 
-Do you think you win at publicly slamming us down?
+Do you listen to the youth and let them have their say?
 
-You're weaker, smaller and far less intelligent,
+Writing messages in fast food chains
 
-Up your game, because you're not so eloquent.
+Producing throw away campaigns
 
-Whilst across the Atlantic Ocean,
+While
 
-another moans, tweets and gripes.
+Street crime rages on in crimson,
 
-But Malala, she travels, inspires and writes.
+Seeping through the same paved stones your politics were built upon.
 
-Stop flashing us in magazines and selfies looking all pristine.
+You don’t hear the real sounds
 
-Right now, we need it more than ever, #IWD2017.
+Although it throbs and pounds
 
+Yet, the birds spit a sad spring song.
+
+For they see all,
+
+Standing tall,
+
+Above the bloodshed,
+
+As like lambs, young men lay dead.
+
+And you attribute it all to ‘street cred’.
+
+  
 \- Clare Welch
 
-In response to International Women's Day and the backdrop of political figures shamelessly berating women in the public domain. 
+Written in response to the [Home Office chicken shop knife crime campaign](https://www.theguardian.com/commentisfree/2019/aug/16/chicken-shop-knife-crime-campaign-home-office "Home Office chicken shop knife crime campaign").
+
+Throw away campaigns
