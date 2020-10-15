@@ -1,8 +1,8 @@
 ---
 title: IWD
 date: 2017-03-06T00:00:00Z
-
 ---
+
 You get up and heckle us, look like such a clown.
 
 Do you think you win at publicly slamming us down?
@@ -23,4 +23,4 @@ Right now, we need it more than ever, #IWD2017.
 
 \- Clare Welch
 
-In response to International Women's Day and the backdrop of political figures shamelessly berating women in the public domain. 
+In response to International Women's Day and the backdrop of political figures shamelessly berating women in the public domain.
