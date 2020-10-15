@@ -34,3 +34,7 @@ All-seeing, current, educated eyes
 Who lament for a time they will never know.
 
 \- Clare Welch
+
+Maybe we'd get somewhere if politics wasn't filled with so much jargon. Scrap the 'circuit breaks' and 'unprecedented' littered speeches and maybe we'd get somewhere. 
+
+Give the youth something to lament. 
