@@ -1,40 +1,40 @@
 ---
 title: Political Promises
-date: 2017-02-01T00:00:00.000+00:00
+date: 2020-10-17T00:00:00+01:00
 
 ---
-Crammed in
+Calorific words weigh us down
 
-Smoked-filled eyes
+We're way too saturated
 
-Grills churn out
+By your suited and booted jargon
 
-Meat-on-sticks
+The public wants answers
 
-Biru, niku
+Words solidified by your creations
 
-Suited and booted
+Stop shifting the blame
 
-Coat-dressed walls
+Go exceed our expectations
 
-Tables touch
+For the youth don't know where to look
 
-No space to move.
+For lack of inspiration
 
-“Sumimasen!”
+So they walk around in circles
 
-Biru, niku
+In hope and anticipation
 
-Meat-infused air
+That someday you will stop and look
 
-Gradually loosened ties
+For they are the future
 
-Night goes on…
+All-seeing, current, educated eyes
 
-Another late one
+Who lament for a time they will never know.
 
-in the office
+\- Clare Welch
 
-An izakaya is more than just a place to eat and drink. It has heart. It's a place where everything is alive, from the meat turning on sticks to the waiters speedily shuffling from table to table to the calls of "sumimasen". It's where graduates drink too much during a nomihodai. It's an office. It's where transactions are made. It's where working relationships are cemented. 
-
-It's an izakaya.
+> **Scrap the 'circuit breaks' and 'unprecedented' littered speeches and maybe we'd get somewhere.**
+>
+> **Give the youth something to lament.**
