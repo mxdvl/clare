@@ -35,35 +35,35 @@
 		display: inline-block;
 		z-index: 1;
 		/* box-shadow: 0.125rem -0.25rem 0.25rem #0133, 1px -1px 1px #0133; */
-		box-shadow: 0 0 0 2px #0003;
+		/* box-shadow: 0 0 0 2px #0003; */
 	}
 
 	a {
 		text-decoration: none;
 		padding: 0.25rem 1rem;
 		display: block;
-		background: rosybrown;
+		background: ivory;
+		border: 2px solid;
 		padding-bottom: 1rem;
 	}
 
 	:global(a.home) {
-		background-color: maroon;
-		color: oldlace;
-		font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+		color: maroon;
+		transform: rotate(-0.5deg);
 	}
 
 	:global(a.words) {
-		background-color: paleturquoise;
+		/* background-color: paleturquoise; */
 		transform: rotate(3deg);
 	}
 
 	:global(a.snaps) {
-		background-color: palegreen;
+		/* background-color: palegreen; */
 		transform: rotate(-1deg);
 	}
 
 	:global(a.notes) {
-		background-color: palegoldenrod;
+		/* background-color: palegoldenrod; */
 		transform: rotate(1.5deg);
 	}
 </style>
@@ -74,7 +74,7 @@
 			<a
 				class="home"
 				aria-current={segment === undefined ? 'page' : undefined}
-				href=".">CW</a>
+				href=".">⌂</a>
 		</li>
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches

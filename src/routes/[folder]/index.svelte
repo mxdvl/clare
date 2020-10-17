@@ -17,6 +17,7 @@
 <style>
 	ul {
 		margin: 0 0 1rem 0;
+		padding: 0;
 	}
 
 	li {
@@ -29,8 +30,8 @@
 		flex-grow: 1;
 		margin: 0 0.5rem;
 		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='3' viewBox='0 0 6 3'%3E%3Ccircle fill='maroon' cx='2' cy='2' r='1'/%3E%3C/svg%3E");
-		background-repeat: space no-repeat;
-		background-position: center 70%;
+		background-repeat: round no-repeat;
+		background-position: right center;
 	}
 
 	.mono {

@@ -3,10 +3,13 @@ body {
 	font-size: 16px;
 	margin: 0;
 	padding: 1rem 0.25rem 2rem;
-	max-width: 48rem;
+	max-width: 36rem;
 	margin: 0 auto;
 	line-height: 1.5;
 	color: #333;
+
+	background: #333 url("pattern.svg");
+	background-size: cover;
 }
 
 h1,

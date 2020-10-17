@@ -3,28 +3,28 @@
 </script>
 
 <style>
-	h1,
 	figure,
 	p {
 		text-align: center;
 		margin: 0 auto;
+		width: 100%;
 	}
 
 	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
+		text-align: center;
+		font-family: "Sacramento", cursive;
+		font-size: 3.5rem;
+		color: saddlebrown;
+		background-color: tan;
+		border: 2px solid;
+		margin: 2rem 6rem 2rem;
+		line-height: 4.25rem;
+		height: 4rem;
+		box-sizing: border-box;
 	}
 
 	:global(p) {
 		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
 	}
 </style>
 
@@ -32,6 +32,6 @@
 	<title>CW’s online notebook</title>
 </svelte:head>
 
-<h1>New website!</h1>
+<h1>Notebook</h1>
 
 {@html content}
