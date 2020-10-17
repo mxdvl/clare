@@ -7,16 +7,23 @@
 <style>
 	main {
 		position: relative;
-		background-color: oldlace;
-		color: maroon;
-		padding: 2em;
+		color: midnightblue;
+		background-color: ivory;
+		border: 2px solid tan;
+		border-radius: 4px;
+		padding: 1rem 0.5rem;
 		margin: 0 auto;
 		box-sizing: border-box;
-		border: 2px solid maroon;
-		border-radius: 4px;
 		min-height: 20rem;
-		/* background-image:
-		url("/ricepaper_v3.png"); */
+		line-height: 1rem;
+
+		background-image: linear-gradient(
+			transparent,
+			transparent 87.5%,
+			beige 87.5%,
+			beige 0
+		);
+		background-size: 1rem 1rem;
 	}
 </style>
 

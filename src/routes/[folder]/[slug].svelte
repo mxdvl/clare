@@ -19,7 +19,7 @@
 
 <style>
 	.content :global(h2) {
-		font-size: 1.4em;
+		font-size: 1.5rem;
 		font-weight: 500;
 	}
 

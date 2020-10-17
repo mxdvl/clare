@@ -12,8 +12,6 @@ export function get(req, res, next) {
 	// this file is called [slug].json.js
 	const { folder, slug } = req.params;
 
-	console.log(req.params);
-
 	const { content, data } = grayMatter(getPost(folder, slug));
 	const html = marked(content);
 
