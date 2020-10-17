@@ -46,7 +46,7 @@
 <h1>{folder.toUpperCase()} — Table of contents</h1>
 
 <ul>
-	{#each posts as post}
+	{#each posts as post, index}
 		<!-- we're using the non-standard `rel=prefetch` attribute to
 				tell Sapper to load the data for the page as soon as
 				the user hovers over the link or taps it, instead of
@@ -54,7 +54,7 @@
 		<li>
 			<a rel="prefetch" href="{folder}/{post.slug}">{post.title}</a>
 			<span class="dots" />
-			<span class="mono">{post.slug}</span>
+			<span class="mono">{index + 1}</span>
 		</li>
 	{/each}
 </ul>
