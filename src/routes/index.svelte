@@ -25,10 +25,6 @@
 		border-color: #b02e0c;
 		background-color: #eb4511;
 	}
-
-	:global(p) {
-		margin: 1em auto;
-	}
 </style>
 
 <svelte:head>
