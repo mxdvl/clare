@@ -18,8 +18,6 @@ const getAllPosts = (folder) =>
 export function get(req, res) {
 	const { folder } = req.params;
 
-	console.log(req.params);
-
 	res.writeHead(200, {
 		"Content-Type": "application/json",
 	});

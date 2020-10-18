@@ -6,7 +6,7 @@
 	nav {
 		font-weight: 300;
 		padding: 0 1em;
-		height: 3.5rem;
+		height: 3rem;
 		margin: 0 auto;
 	}
 
@@ -34,36 +34,34 @@
 		position: relative;
 		display: inline-block;
 		z-index: 1;
-		/* box-shadow: 0.125rem -0.25rem 0.25rem #0133, 1px -1px 1px #0133; */
-		/* box-shadow: 0 0 0 2px #0003; */
+		color: var(--paper);
+		border-color: #b02e0c;
+		background-color: #eb4511;
 	}
 
 	a {
 		text-decoration: none;
 		padding: 0.25rem 1rem;
 		display: block;
-		background: ivory;
+		color: var(--text);
+		background: var(--paper);
 		border: 2px solid;
 		padding-bottom: 1rem;
 	}
 
-	:global(a.home) {
-		color: maroon;
+	li:nth-of-type(1) a {
 		transform: rotate(-0.5deg);
 	}
 
-	:global(a.words) {
-		/* background-color: paleturquoise; */
+	li:nth-of-type(2) a {
 		transform: rotate(3deg);
 	}
 
-	:global(a.snaps) {
-		/* background-color: palegreen; */
+	li:nth-of-type(3) a {
 		transform: rotate(-1deg);
 	}
 
-	:global(a.notes) {
-		/* background-color: palegoldenrod; */
+	li:nth-of-type(4) a {
 		transform: rotate(1.5deg);
 	}
 </style>
