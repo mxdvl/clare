@@ -1,13 +1,12 @@
 <script>
-	import Nav from "../components/Nav.svelte";
+	import Cover from "../../components/Cover.svelte";
+	import Nav from "../../components/Nav.svelte";
 
 	export let segment;
 </script>
 
 <style>
 	main {
-		--lines: #f0f6f2;
-
 		position: relative;
 		color: var(--text);
 		background-color: var(--paper);
@@ -38,7 +37,8 @@
 </style>
 
 <Nav {segment} />
-
-<main>
-	<slot />
-</main>
+<Cover>
+	<main>
+		<slot />
+	</main>
+</Cover>

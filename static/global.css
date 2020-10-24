@@ -1,15 +1,17 @@
 :root {
-	--colour: #3192d8;
-	--text: #171a21;
-	--paper: #fefdff;
-	--accent: #eb4511;
+	--background: #d295b3;
+	--text: #2e3141;
+	--paper: #fefefe;
+	--lines: #faf0f5;
+	--accent: #87a266;
+	--cover: #dda617;
 	--line: 2px;
 
 	font-size: 20px;
 }
 
 body {
-	font-family: "Courier New", Courier, monospace;
+	font-family: "iA Writer Quattro S", "Courier New", Courier, monospace;
 	font-size: 0.8rem;
 	line-height: 1.5;
 	margin: 0;
@@ -18,7 +20,7 @@ body {
 	margin: 0 auto;
 	color: var(--text);
 
-	background: var(--colour);
+	background: var(--background);
 	background-size: cover;
 }
 

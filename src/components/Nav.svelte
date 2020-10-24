@@ -7,7 +7,7 @@
 		font-weight: 300;
 		padding: 0 1em;
 		height: 3rem;
-		margin: 0 auto;
+		margin: 2rem auto 0;
 	}
 
 	ul {
@@ -23,11 +23,10 @@
 	}
 
 	li {
-		display: block;
+		font-size: 1.5rem;
 		float: left;
+		display: block;
 		margin: 0 0.5rem;
-		font-family: "Sacramento", cursive;
-		font-size: 2rem;
 	}
 
 	[aria-current] {
@@ -35,8 +34,7 @@
 		display: inline-block;
 		z-index: 1;
 		color: var(--paper);
-		border-color: #b02e0c;
-		background-color: #eb4511;
+		background-color: var(--accent);
 	}
 
 	a {
@@ -71,7 +69,7 @@
 		<li>
 			<a
 				class="home"
-				aria-current={segment === undefined ? 'page' : undefined}
+				data-aria-current={segment === undefined ? 'page' : undefined}
 				href=".">⌂</a>
 		</li>
 
