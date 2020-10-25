@@ -15,13 +15,21 @@ body {
 	font-size: 0.8rem;
 	line-height: 1.5;
 	margin: 0;
-	padding: 1rem 0.25rem 2rem;
-	max-width: 36rem;
-	margin: 0 auto;
 	color: var(--text);
 
 	background: var(--background);
 	background-size: cover;
+}
+
+#notebook {
+	display: grid;
+	grid-template-areas:
+		"nav"
+		"page"
+		"page";
+	max-width: 36rem;
+	padding: 1rem 0.25rem 2rem;
+	margin: 0 auto;
 }
 
 h1,

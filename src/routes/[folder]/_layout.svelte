@@ -1,19 +1,13 @@
-<script>
-	import Cover from "../../components/Cover.svelte";
-	import Nav from "../../components/Nav.svelte";
-
-	export let segment;
-</script>
-
 <style>
 	main {
 		position: relative;
+		grid-area: page;
+
 		color: var(--text);
 		background-color: var(--paper);
 		border: 2px solid;
 		border-radius: 0 1rem 1rem 0;
 		padding: 2rem 1rem 2rem;
-		margin: 0 auto;
 		box-sizing: border-box;
 		min-height: 42rem;
 		line-height: 1rem;
@@ -36,9 +30,6 @@
 	}
 </style>
 
-<Nav {segment} />
-<Cover>
-	<main>
-		<slot />
-	</main>
-</Cover>
+<main class="page">
+	<slot />
+</main>

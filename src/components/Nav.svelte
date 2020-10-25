@@ -7,7 +7,8 @@
 		font-weight: 300;
 		padding: 0 1em;
 		height: 3rem;
-		margin: 2rem auto 0;
+		margin: 0;
+		grid-area: nav;
 	}
 
 	ul {
@@ -69,7 +70,7 @@
 		<li>
 			<a
 				class="home"
-				data-aria-current={segment === undefined ? 'page' : undefined}
+				aria-current={segment === undefined ? 'page' : undefined}
 				href=".">⌂</a>
 		</li>
 
