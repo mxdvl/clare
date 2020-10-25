@@ -9,7 +9,8 @@
 		position: relative;
 
 		grid-area: page;
-		margin: -1rem;
+		margin: -0.5rem;
+		margin-right: calc(-0.5rem - (2 * var(--line)));
 		margin-bottom: -1.5rem;
 	}
 

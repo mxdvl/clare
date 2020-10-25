@@ -1,3 +1,7 @@
+<script lang="ts">
+	export let segment: string;
+</script>
+
 <style>
 	main {
 		position: relative;

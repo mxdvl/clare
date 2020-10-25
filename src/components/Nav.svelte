@@ -16,13 +16,6 @@
 		padding: 0;
 	}
 
-	/* clearfix */
-	ul::after {
-		content: "";
-		display: block;
-		clear: both;
-	}
-
 	li {
 		font-size: 1.5rem;
 		float: left;
@@ -45,7 +38,7 @@
 		color: var(--text);
 		background: var(--paper);
 		border: 2px solid;
-		padding-bottom: 1rem;
+		padding-bottom: 2rem;
 	}
 
 	li:nth-of-type(1) a {
