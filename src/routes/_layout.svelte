@@ -20,11 +20,6 @@
 		transition: 240ms ease;
 		transform-origin: top center;
 	}
-
-	#notebook.closed {
-		transform: scale3d(0.5, 0.5, 1);
-		--line: 4px;
-	}
 </style>
 
 <div id="notebook" class:closed={segment === undefined}>
