@@ -5,7 +5,31 @@
 	export let segment: string;
 </script>
 
-<Nav {segment} />
-<Cover />
+<style>
+	#notebook {
+		display: grid;
+		grid-template-areas:
+			"nav"
+			"page"
+			"page";
+		width: 100%;
+		max-width: 36rem;
+		padding: 1rem 1rem 2rem;
+		margin: 0 auto;
 
-<slot />
+		transition: 240ms ease;
+		transform-origin: top center;
+	}
+
+	#notebook.closed {
+		transform: scale3d(0.5, 0.5, 1);
+		--line: 4px;
+	}
+</style>
+
+<div id="notebook" class:closed={segment === undefined}>
+	<Nav {segment} />
+	<Cover />
+
+	<slot />
+</div>

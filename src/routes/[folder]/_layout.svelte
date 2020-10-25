@@ -13,7 +13,6 @@
 		border-radius: 0 1rem 1rem 0;
 		padding: 2rem 1rem 2rem;
 		box-sizing: border-box;
-		min-height: 42rem;
 		line-height: 1rem;
 
 		font-size: 0.8rem;
