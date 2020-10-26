@@ -69,7 +69,7 @@
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 				 the blog data when we hover over the link or tap it on a touchscreen -->
-		{#each ['words', 'about', 'terms'] as folder}
+		{#each ['words', 'about'] as folder}
 			<li>
 				<a
 					rel="prefetch"
@@ -78,5 +78,13 @@
 					href={folder}>{folder}</a>
 			</li>
 		{/each}
+
+		<li>
+			<a
+				rel="prefetch"
+				class="terms"
+				aria-current={segment === 'terms' ? 'page' : undefined}
+				href="terms">t&c</a>
+		</li>
 	</ul>
 </nav>
