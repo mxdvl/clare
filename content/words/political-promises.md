@@ -1,21 +1,21 @@
 ---
 title: Political Promises
-date: 2020-10-17T00:00:00+01:00
+date: 2020-10-17T00:00:00.000+01:00
 
 ---
-Calorific words weigh us down
+Calorific words weigh us down.
 
 We're way too saturated
 
-By your suited and booted jargon
+By your suited and booted jargon.
 
-The public wants answers
+The public wants answers.
 
-Words solidified by your creations
+Words solidified by your creations.
 
-Stop shifting the blame
+Stop shifting the blame,
 
-Go exceed our expectations
+Go exceed our expectations.
 
 For the youth don't know where to look
 
@@ -25,9 +25,9 @@ So they walk around in circles
 
 In hope and anticipation
 
-That someday you will stop and look
+That someday you will stop and look.
 
-For they are the future
+For they are the future,
 
 All-seeing, current, educated eyes
 
