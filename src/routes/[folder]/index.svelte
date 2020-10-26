@@ -48,18 +48,26 @@
 	<title>Clare’s {folder}</title>
 </svelte:head>
 
-<h1>{folder.toUpperCase()} — Table of contents</h1>
+{#if typeof posts.slug !== 'undefined'}
+	<h1>{posts.title}</h1>
 
-<ul>
-	{#each posts as post, index}
-		<!-- we're using the non-standard `rel=prefetch` attribute to
+	<div class="content">
+		{@html posts.html}
+	</div>
+{:else if posts.length > 1}
+	<h1>Recent {folder.toUpperCase()}</h1>
+
+	<ul>
+		{#each posts as post, index}
+			<!-- we're using the non-standard `rel=prefetch` attribute to
 				tell Sapper to load the data for the page as soon as
 				the user hovers over the link or taps it, instead of
 				waiting for the 'click' event -->
-		<li>
-			<a rel="prefetch" href="{folder}/{post.slug}">{post.title}</a>
-			<span class="dots" />
-			<span class="mono">{index + 1}</span>
-		</li>
-	{/each}
-</ul>
+			<li>
+				<a rel="prefetch" href="{folder}/{post.slug}">{post.title}</a>
+				<span class="dots" />
+				<span class="mono">{index + 1}</span>
+			</li>
+		{/each}
+	</ul>
+{/if}
