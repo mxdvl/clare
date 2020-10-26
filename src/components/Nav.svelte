@@ -5,7 +5,7 @@
 <style>
 	nav {
 		font-weight: 300;
-		padding: 0 1em;
+		padding: 0;
 		height: 3rem;
 		margin: 0;
 		grid-area: nav;
@@ -17,10 +17,10 @@
 	}
 
 	li {
-		font-size: 1.5rem;
+		font-size: 1rem;
 		float: left;
 		display: block;
-		margin: 0 0.5rem;
+		margin: 0 0.25rem;
 	}
 
 	[aria-current] {
@@ -33,7 +33,7 @@
 
 	a {
 		text-decoration: none;
-		padding: 0.25rem 1rem;
+		padding: 0.25rem;
 		display: block;
 		color: var(--text);
 		background: var(--paper);
