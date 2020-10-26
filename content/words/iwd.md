@@ -23,4 +23,4 @@ Right now, we need it more than ever, #IWD2017.
 
 \- Clare Welch
 
-In response to International Women's Day and the backdrop of political figures shamelessly berating women in the public domain.
+> **In response to International Women's Day and the backdrop of political figures shamelessly berating women in the public domain.**

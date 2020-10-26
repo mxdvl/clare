@@ -35,6 +35,4 @@ And you, yes you, attribute it all to ‘street cred’.
 
 \- Clare Welch
 
-Written in response to the [Home Office chicken shop knife crime campaign](https://www.theguardian.com/commentisfree/2019/aug/16/chicken-shop-knife-crime-campaign-home-office "Home Office chicken shop knife crime campaign").
-
-Throw away campaigns
+> **Written in response to the** [**Home Office chicken shop knife crime campaign**](https://www.theguardian.com/commentisfree/2019/aug/16/chicken-shop-knife-crime-campaign-home-office "Home Office chicken shop knife crime campaign")**.**
