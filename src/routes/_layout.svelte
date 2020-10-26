@@ -22,7 +22,7 @@
 	}
 
 	#notebook.closed {
-		width: 24rem;
+		max-width: 24rem;
 	}
 </style>
 
