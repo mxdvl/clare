@@ -23,9 +23,13 @@
 		width: 100%;
 		top: 45%;
 		font-size: 4rem;
+		font-weight: 900;
 		text-align: center;
+
 		color: var(--cover);
-		text-shadow: 4px 4px 0 #fefefe88, -4px -4px 0 var(--text);
+		opacity: 0.75;
+		text-shadow: -2px -4px 0 var(--text), 2px 4px 0 gold;
+		-webkit-text-stroke: #0036 1px;
 	}
 </style>
 
