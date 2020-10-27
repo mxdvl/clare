@@ -54,3 +54,11 @@ p {
 	margin: auto;
 	padding-bottom: 1rem;
 }
+
+img {
+	width: 100%;
+	display: block;
+	border: 1rem solid var(--lines);
+	height: 20rem;
+	object-fit: cover;
+}

@@ -24,7 +24,7 @@
 			var(--paper) calc(1rem)
 		);
 		background-repeat: no-repeat;
-		background-position: 1rem calc(7rem - 3px);
+		background-position: 1rem 7rem;
 		background-size: calc(100% - 2rem);
 
 		box-shadow: 4px 4px 0 -2px var(--paper), 4px 4px 0 var(--text),
