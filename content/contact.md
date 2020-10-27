@@ -4,7 +4,7 @@ title: Get in touch
 ---
 Say hey@clare.ink
 
-Or fill out the form below
+Or 👇
 
 <style>
 label {
