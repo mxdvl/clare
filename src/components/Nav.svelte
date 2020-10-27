@@ -74,7 +74,7 @@
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 				 the blog data when we hover over the link or tap it on a touchscreen -->
-		{#each ['about', 'words'] as folder}
+		{#each ['about', 'words', 'contact'] as folder}
 			<li>
 				<a
 					rel="prefetch"
