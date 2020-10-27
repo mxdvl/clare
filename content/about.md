@@ -22,4 +22,4 @@ Way too much pizza.
 
 This is me, too.
 
-> There are some [T&Cs](/terms) for using website.
+> Here are my [T&Cs](/terms).
