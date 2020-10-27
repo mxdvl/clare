@@ -9,7 +9,7 @@ We're way too saturated
 
 By your suited and booted jargon.
 
-The public wants answers.
+The public wants answers,
 
 Words solidified by your creations.
 
@@ -29,12 +29,10 @@ That someday you will stop and look.
 
 For they are the future,
 
-All-seeing, current, educated eyes
+All-seeing, current, educated eyes,
 
 Who lament for a time they will never know.
 
 \- Clare Welch
 
-> **Scrap the 'circuit breaks' and 'unprecedented' littered speeches and maybe we'd get somewhere.**
->
-> **Give the youth something to lament.**
+> **Scrap the “circuit breaks” and “unprecedented” littered speeches and maybe we'd get somewhere.**
