@@ -10,7 +10,7 @@ Keen writer and educator. Interested in bringing stories to life.
 
 Say hey@clare.ink, always down for a coffee or chat.
 
-<video poster="//i.imgur.com/qNKWCuKh.jpg" preload="auto" muted="muted" webkit-playsinline="" style="width: 100%; height: 18rem"><source type="video/mp4" src="//i.imgur.com/qNKWCuK.mp4"></video>
+<video poster="//i.imgur.com/qNKWCuKh.jpg" preload="auto" muted="muted" webkit-playsinline="" autoplay loop style="width: 100%; height: 18rem"><source type="video/mp4" src="//i.imgur.com/qNKWCuK.mp4"></video>
 
 **This is me. Now, that's a story.**
 

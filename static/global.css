@@ -107,8 +107,9 @@ img {
 video {
 	display: block;
 	height: 12rem;
-	padding: 1rem;
-	background-color: var(--lines);
+	padding: 0;
+	border: 1rem solid var(--lines);
+	background-color: black;
 }
 
 blockquote {
