@@ -52,9 +52,7 @@ method="POST"
 
 > 
 
-<label><p>Your email:</p><input type="text" name="_replyto" required></label> <label><p>Your message:</p> <textarea name="message">Hey Clare,   
-
-</textarea></label>
+<label><p>Your email:</p><input type="text" name="_replyto" required></label> <label><p>Your message:</p> <textarea name="message">Hey Clare,</textarea></label>
 
 <button type="submit">Send</button>
 
