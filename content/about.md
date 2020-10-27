@@ -2,18 +2,24 @@
 title: About
 
 ---
-Hi, I’m Clare without an **i**.
+Hey! Nice to meet you. 
 
-Keen writer and educator.
+I’m Clare without an **i**.
 
-In my free time, I love socialising with friends, meeting new people, writing, watching a good series or documentary, reading a book I can get lost in, completing a crossword (or at least giving it a go), planning my next adventure, dancing to Lady Gaga, trying new foods and eating pizza.
+Keen writer and educator. Interested in bringing stories to life.
 
-Way too much pizza.
+📧: clarelwelch@gmail.com
+
+Always down for a (Zoom) coffee or chat. 
 
 ![](/unadjustednonraw_thumb_546e.jpg)
 
-This is me.
+This is me. Now, That's a story. 
+
+In my free time, I love socialising, writing, watching a good series or documentary, reading a book I can get lost in, completing a crossword (or at least giving it a go), planning my next adventure, dancing to Lady Gaga, trying new foods and eating pizza.
+
+Way too much pizza.
 
 ![](/unadjustednonraw_thumb_540b.jpg)
 
-This is me. 
+This is me, too. 
