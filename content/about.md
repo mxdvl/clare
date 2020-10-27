@@ -1,7 +1,7 @@
 ---
 title: Hey! Nice to meet you.
-
 ---
+
 I’m Clare without an **i**.
 
 Keen writer and educator. Interested in bringing stories to life.
@@ -19,3 +19,5 @@ Way too much pizza.
 ![](/unadjustednonraw_thumb_540b.jpg)
 
 This is me, too.
+
+> There are some [T&Cs](/terms) for using website.

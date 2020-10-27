@@ -83,13 +83,5 @@
 					href={folder}>{folder}</a>
 			</li>
 		{/each}
-
-		<li>
-			<a
-				rel="prefetch"
-				class="terms"
-				aria-current={segment === 'terms' ? 'page' : undefined}
-				href="terms">t&c</a>
-		</li>
 	</ul>
 </nav>

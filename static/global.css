@@ -55,10 +55,20 @@ p {
 	padding-bottom: 1rem;
 }
 
+p:last-child {
+	padding-bottom: 0;
+}
+
 img {
 	width: 100%;
 	display: block;
 	border: 1rem solid var(--lines);
 	height: 20rem;
 	object-fit: cover;
+}
+
+blockquote {
+	background-color: var(--lines);
+	margin: 0;
+	padding: 1rem;
 }
