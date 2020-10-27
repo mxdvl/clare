@@ -1,6 +1,8 @@
 ---
-title: Hey! Nice to meet you.
+title: 'Hey! '
+
 ---
+Nice to meet you. 👋
 
 I’m Clare without an **i**.
 
