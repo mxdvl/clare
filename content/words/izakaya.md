@@ -3,7 +3,7 @@ title: Izakaya
 date: 2017-02-01T00:00:00.000+00:00
 
 ---
-Crammed in
+Crammed right in
 
 Smoked-filled eyes
 
@@ -11,29 +11,27 @@ Grills churn out
 
 Meat-on-sticks.
 
-Biru, niku
+_Biru, niku_ — _“Sumimasen!“_
 
-Suited and booted
+Suits and boots
 
 Coat-dressed walls
 
-No space to move.
+Drinks are chugged
 
-Tables touch
+Tables touch.
 
-“Sumimasen!”
+_Biru, niku_ — _“Kampai!”_
 
-Biru, niku
-
-Meat-infused air.
+Smoke filled air
 
 Loosened ties
 
 Night goes on…
 
-Another late one
+Another late one in the office.
 
-in the office.
+***
 
 > **An izakaya is more than just a place to eat and drink. It has heart. It's a place where everything is alive. From the meat turning on sticks, to the waiters speedily shuffling from table to table, to the calls of "sumimasen".**
 >
@@ -45,4 +43,4 @@ in the office.
 >
 > **It's where working relationships are cemented.**
 >
-> **Like no place else. It's an izakaya.**
+> **Like no other place: it's an izakaya.**
