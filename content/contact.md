@@ -2,7 +2,6 @@
 title: Get in touch
 
 ---
-## Use the form below
 
 You can also say hey@clare.ink
 
