@@ -15,6 +15,8 @@ You can also just say hey@clare.ink
     input, textarea {
         background: var(--lines);
         font-family: inherit;
+        font-size: 0.8rem;
+        line-height: 1rem;
         border: none;
         width: 100%;
         margin: 0;
