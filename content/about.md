@@ -4,7 +4,7 @@ title: 'Hey! '
 ---
 Nice to meet you. 👋
 
-I’m Clare without an **i**.
+I’m **Clare** without an **i**.
 
 Keen writer and educator. Interested in bringing stories to life.
 
