@@ -2,8 +2,9 @@
 title: Get in touch
 
 ---
+Say hey@clare.ink
 
-You can also say hey@clare.ink
+Or fill out the form below
 
 <style>
 label {
