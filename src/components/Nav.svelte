@@ -6,7 +6,7 @@
 	nav {
 		font-weight: 300;
 		padding: 0;
-		height: 3rem;
+		height: 2.5rem;
 		margin: 0;
 		grid-area: nav;
 	}
@@ -27,7 +27,7 @@
 		position: relative;
 		display: inline-block;
 		z-index: 1;
-		color: var(--paper);
+		/* color: var(--paper); */
 		background-color: var(--accent);
 	}
 
@@ -39,6 +39,8 @@
 		background: var(--paper);
 		border: var(--line) solid;
 		padding-bottom: 2rem;
+
+		box-shadow: 4px 4px 0 #0003;
 	}
 
 	li:nth-of-type(4n) a {
@@ -69,7 +71,7 @@
 				rel="prefetch"
 				class="home"
 				aria-current={segment === undefined ? 'page' : undefined}
-				href=".">⌂</a>
+				href=".">家</a>
 		</li>
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches

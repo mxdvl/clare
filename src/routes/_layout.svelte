@@ -24,6 +24,10 @@
 	#notebook.closed {
 		max-width: 24rem;
 	}
+
+	:global(#notebook.closed .cover) {
+		z-index: 3;
+	}
 </style>
 
 <div id="notebook" class:closed={segment === undefined}>

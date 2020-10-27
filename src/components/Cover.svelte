@@ -13,6 +13,8 @@
 		margin-left: -0.75rem;
 		margin-right: calc(-0.5rem - (2 * var(--line)));
 		margin-bottom: -1.5rem;
+
+		box-shadow: 4px 4px 0 #0003;
 	}
 
 	h1 {
