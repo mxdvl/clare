@@ -1,5 +1,4 @@
 ---
-title: T&C
----
+title: Contact
 
-These are my terms
+---
