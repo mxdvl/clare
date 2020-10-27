@@ -62,6 +62,7 @@
 	<ul>
 		<li>
 			<a
+				rel="prefetch"
 				class="home"
 				aria-current={segment === undefined ? 'page' : undefined}
 				href=".">⌂</a>
