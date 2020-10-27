@@ -10,4 +10,10 @@ In my free time, I love socialising with friends, meeting new people, writing, w
 
 Way too much pizza.
 
+![](/unadjustednonraw_thumb_546e.jpg)
+
+This is me.
+
 ![](/unadjustednonraw_thumb_540b.jpg)
+
+This is me. 
