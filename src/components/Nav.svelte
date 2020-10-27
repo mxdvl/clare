@@ -41,20 +41,24 @@
 		padding-bottom: 2rem;
 	}
 
-	li:nth-of-type(1) a {
+	li:nth-of-type(4n) a {
 		transform: rotate(-0.5deg);
 	}
 
-	li:nth-of-type(2) a {
+	li:nth-of-type(4n + 1) a {
 		transform: rotate(3deg);
 	}
 
-	li:nth-of-type(3) a {
+	li:nth-of-type(4n + 2) a {
 		transform: rotate(-1deg);
 	}
 
-	li:nth-of-type(4) a {
+	li:nth-of-type(4n + 3) a {
 		transform: rotate(1.5deg);
+	}
+
+	li:first-of-type a {
+		transform: rotate(0);
 	}
 </style>
 
