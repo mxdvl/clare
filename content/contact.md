@@ -1,37 +1,35 @@
 ---
 title: Get in touch
----
 
+---
 ## Use the form below
 
 You can also just say hey@clare.ink
 
 <style>
-    label {
-        display: block;
-        padding-bottom: 1rem;
-    }
+label {
+display: block;
+padding-bottom: 1rem;
+}
 
     input, textarea {
         background: var(--lines);
         font-family: inherit;
-        font-size: 0.8rem;
-        line-height: 1rem;
         border: none;
         width: 100%;
         margin: 0;
         padding: 0;
         padding: 1rem;
     }
-
+    
     input {
         height: 3rem;
     }
-
+    
     textarea {
         height: 18rem;
     }
-
+    
     button {
         background: var(--accent);
         border: var(--line) solid var(--text);
@@ -42,21 +40,19 @@ You can also just say hey@clare.ink
         display: block;
         margin: 0 auto;
     }
-
+    
     button:hover {
         background-color: var(--background);
     }
+
 </style>
 <form
-  action="https://formspree.io/f/mayljwap"
-  method="POST"
->
-  <label><p>Your email:</p><input type="text" name="_replyto" required></label>
-  <label><p>Your message:</p>
-<textarea name="message">Hey Clare,
-&nbsp;
-I wanted to tell you about…
-</textarea></label>
+action="https://formspree.io/f/mayljwap"
+method="POST"
+
+> 
+
+<label><p>Your email:</p><input type="text" name="_replyto" required></label> <label><p>Your message:</p> <textarea name="message">Hey Clare,   </textarea></label>
 
 <button type="submit">Send</button>
 
