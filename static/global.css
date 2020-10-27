@@ -82,7 +82,8 @@ a {
 	font-weight: 600;
 	background-repeat: no-repeat;
 	background-size: 100% var(--line);
-	background-position-y: 16px;
+	background-position-y: 1rem;
+	padding-bottom: 0.5rem;
 	background-image: linear-gradient(var(--accent), var(--accent));
 }
 
@@ -101,6 +102,13 @@ img {
 	border: 1rem solid var(--lines);
 	height: 20rem;
 	object-fit: cover;
+}
+
+video {
+	display: block;
+	height: 12rem;
+	padding: 1rem;
+	background-color: var(--lines);
 }
 
 blockquote {
