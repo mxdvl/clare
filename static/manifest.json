@@ -1,20 +1,20 @@
 {
-	"background_color": "#ffffff",
-	"theme_color": "#333333",
+	"background_color": "#d295b3",
+	"theme_color": "#2e3141",
 	"name": "Clare’s notebook",
 	"short_name": "clare.ink",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [
 		{
-			"src": "favicon.svg",
+			"src": "notebook-192.png",
 			"sizes": "192x192",
-			"type": "image/svg"
+			"type": "image/png"
 		},
 		{
-			"src": "favicon.svg",
+			"src": "notebook-512.png",
 			"sizes": "512x512",
-			"type": "image/svg"
+			"type": "image/png"
 		}
 	]
 }
