@@ -38,7 +38,7 @@
 		color: var(--text);
 		background: var(--paper);
 		border: var(--line) solid;
-		padding-bottom: 2rem;
+		padding-bottom: 1.5rem;
 
 		box-shadow: 4px 4px 0 #0003;
 	}
