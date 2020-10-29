@@ -25,7 +25,7 @@ const getPage = (folder) => {
 		"utf-8"
 	);
 	const { content, data } = grayMatter(page);
-	const html = marked(content);
+	const html = marked(content, { smartypants: true });
 
 	return { html, slug: folder, ...data };
 };

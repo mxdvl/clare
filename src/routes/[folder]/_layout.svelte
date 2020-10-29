@@ -1,7 +1,3 @@
-<script lang="ts">
-	export let segment: string;
-</script>
-
 <style>
 	main {
 		position: relative;
@@ -11,7 +7,8 @@
 		background-color: var(--paper);
 		border: 2px solid;
 		border-radius: 0 1rem 1rem 0;
-		padding: 2rem 1rem 2rem;
+		padding: 1rem;
+		padding-bottom: 1rem;
 		box-sizing: border-box;
 		line-height: 1rem;
 

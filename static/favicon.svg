@@ -1,8 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
 	<g stroke-width="1" stroke="#2e3141" fill="#dda617">
 		<!-- <rect x="3.5" y="1.5" width="9" height="12" /> -->
-		<path d="M 3.5 1.5 h 9 v 12 h -9 z" />
+		<path d="M 2.5 1.5
+		h 7 a 2 2 0 0 1  2 2
+		v 8 a 2 2 0 0 1 -2 2
+		h -7 z" />
 		<!-- <path d="M 2.5 4.5 h 4 m -4 2 h 4 m -4 2 h 4 m -4 2 h 4" /> -->
 	</g>
-	<text x="4.5" y="9" font-size="4" font-weight="800" font-family="sans-serif">CW</text>
+	<text x="3.6" y="9" font-size="4" font-weight="800" font-family="sans-serif" fill="gold">CW</text>
 </svg>

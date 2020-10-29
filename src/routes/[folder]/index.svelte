@@ -27,7 +27,7 @@
 	}
 
 	li a {
-		background-position-y: 17px;
+		background-position-y: 1rem;
 	}
 
 	.dots {

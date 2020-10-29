@@ -13,7 +13,7 @@ export function get(req, res, next) {
 	const { folder, slug } = req.params;
 
 	const { content, data } = grayMatter(getPost(folder, slug));
-	const html = marked(content);
+	const html = marked(content, { smartypants: true });
 
 	if (content) {
 		res.writeHead(200, {
