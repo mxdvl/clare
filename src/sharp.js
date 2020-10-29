@@ -1,5 +1,5 @@
-import sharp from "sharp";
-import path from "path";
+const sharp = require("sharp");
+const path = require("path");
 
 const folder = "static";
 

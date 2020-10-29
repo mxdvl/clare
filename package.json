@@ -5,13 +5,12 @@
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
-		"export": "export:icons && export:sapper" ,
+		"export": "yarn export:icons && yarn export:sapper" ,
 		"export:icons" : "node src/sharp.js",
 		"export:sapper": "sapper export --legacy",
     "start": "node __sapper__/build",
     "validate": "svelte-check --ignore src/node_modules/@sapper"
 	},
-	"type": "module",
   "dependencies": {
     "compression": "^1.7.4",
     "polka": "0.5.2",

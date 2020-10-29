@@ -7,7 +7,7 @@
 yarn-error.log
 
 # Sharp
-/static/logo-*
+/static/notebook-*
 
 # Builds
 /__sapper__/
