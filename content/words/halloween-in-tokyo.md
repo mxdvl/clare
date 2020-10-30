@@ -5,7 +5,7 @@ date: 2020-10-30T18:00:00Z
 ---
 Halloween in Tokyo is a true feast for the eyes.
 
-Shibuya becomes a cauldron of colour as Mignons, ghouls and nurses glide across the ‘Scramble’ in their thousands. The streets of Tokyo are transformed into catwalks where people strut and show off their carefully crafted guises.
+Shibuya becomes a cauldron of colour as Minions, ghouls and nurses glide across the ‘Scramble’ in their thousands. The streets of Tokyo are transformed into catwalks where people strut and show off their carefully crafted guises.
 
 ![Cheshire Cat, Queen of Hearts, Mad Hatter](/halloween-trio.jpeg "The Wonderland Trio")
 
@@ -33,7 +33,7 @@ Yet, my get-up seemed to be a crowd-pleaser. I joined in with the masquerade, po
 
 Never being a big fan of horror films, I favoured the candy-washed interpretation of scary. In the midst of my joy at Halloween in Tokyo, I was slowly approached by a person convincingly dressed as [Sadako from _The Ring_](https://en.wikipedia.org/wiki/Sadako_Yamamura). Horror movies are not for me. Never have been. Never will be. If I watch anything remotely scary, I say goodbye to a week’s worth of sleep. So, Sadoko approaching me was not high up on my Tokyo list of things to do. Long, black hair approached me. I uttered (squealed), ‘Oh my God’ several times. Unwittingly knowing that in fact, 'Sadako' was Haruka Minowa (箕輪 はるか), a famous comedian and member of the Japanese comedy duo [Harisenbon](https://en.wikipedia.org/wiki/Harisenbon). I later learned that this encounter had been filmed. So there it is, the story of how I ended up on Japanese TV and ticking off one of my ultimate bucket list items; to be laughed at by a floating presenter (you’ll know if you’ve ever watched NHK).
 
-Although I had never been a big enthusiast of Halloween, I could see why this event was so popular. It brought everyone together. It was colourful. It was a chance for adults to dress up and not take themselves so seriously for the night. It was a glorious street party for anyone who wanted to have fun. 
+Although I had never been a big enthusiast of Halloween, I could see why this event was so popular. It brought everyone together. It was colourful. It was a chance for adults to dress up and not take themselves so seriously for the night. It was a glorious street party for anyone who wanted to have fun.
 
 No trickery, just a real treat.
 
