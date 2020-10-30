@@ -9,11 +9,13 @@
 			});
 	}
 
-	const sortDates = (posts) =>
-		posts.sort(
+	const sortDates = (posts) => {
+		if (typeof posts.slug !== "undefined") return posts;
+		return posts.sort(
 			(first, second) =>
 				new Date(second.date).getTime() - new Date(first.date).getTime()
 		);
+	};
 </script>
 
 <script>
