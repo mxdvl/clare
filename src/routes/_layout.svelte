@@ -3,6 +3,7 @@
 	import Nav from "../components/Nav.svelte";
 
 	export let segment: string;
+	export let closed: boolean = segment === undefined;
 </script>
 
 <style>
@@ -22,17 +23,13 @@
 	}
 
 	#notebook.closed {
-		max-width: 24rem;
-	}
-
-	:global(#notebook.closed .cover) {
-		z-index: 3;
+		width: min(24rem, 100%);
 	}
 </style>
 
-<div id="notebook" class:closed={segment === undefined}>
+<div id="notebook" class:closed>
 	<Nav {segment} />
-	<Cover />
+	<Cover {closed} />
 
 	<slot />
 </div>
