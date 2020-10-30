@@ -11,10 +11,13 @@ Towards home
 
 Where
 
-           I
+            I
 
-            gathered                                             up
+              Gathered                                                UP
 
-                           myself 
+                                 Myself                               
 
 And moved on.
+
+  
+\- Clare Welch
