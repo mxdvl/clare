@@ -1,20 +1,42 @@
 ---
 title: Halloween in Tokyo
-date: 2020-08-27T18:00:00.000+01:00
+date: 2020-10-30T18:00:00Z
 
 ---
-Looking to shift careers, the familiar phrase of ‘…but you’re just a teacher’ has started to creep in.
+Halloween in Tokyo is a true feast for the eyes.
 
-A person I believe who has added to this doubting discourse of mine, and many others, is George.
+Shibuya becomes a cauldron of colour as Mignons, ghouls and nurses glide across the ‘Scramble’ in their thousands. The streets of Tokyo are transformed into catwalks where people strut and show off their carefully crafted guises.
 
-In George Bernard Shaw’s ‘Maxims for Revolutionists’, he famously wrote, ‘He who can, does. He who cannot, teaches.’ and despite teachers no longer just falling under the pronoun ‘he’, this saying and often more absurdly widespread truth, for some, has stuck. I wonder how George would have felt about ‘she’ and ‘they’ teaching? I wonder what he would have had to say about them? And although his pithy remarks have clung on, I’d like to think that his one-liners would have been bashed around a little more on social media today.
+![Cheshire Cat, Queen of Hearts, Mad Hatter](/halloween-trio.jpeg "The Wonderland Trio")
 
-Like Mr Shaw, many people have their own fully-fledged opinions on teachers whether they know it or not. On platforms such as LinkedIn, it is fair to surmise that most people, including yourself, have had a personal experience of being at school or been in some form of the education system, either as a child, adult, or if you’re lucky at all stages of your life.
+Hours of work spent on perfecting life-like wounds and coming up with original ideas are proudly displayed like carefully-positioned mannequins in shop windows.
 
-There is no doubt that wide access to education is great, but it can be a limiting factor to teachers who are hoping to transition into a new realm of work. Cultural lenses worn by us all mean that individuals have preconceived ideas of what a teacher’s role entails based on their experience(s) of education. For some, it may have been a gruelling slog whilst for others, it rings out achievement and fond memories. As a result, people have different takes on what education means and what it means to be a teacher based on their own personal experience.
+People hope that they will be papped as Halloween in Tokyo grants individuals their 15 minutes of fame.
 
-So, although, not everyone has had direct contact with the world of marketers, filmmakers, managers or decision-makers, it is safe to say that everyone has had a teacher and we will all take on the role of a teacher at some point in our lives, too.
+Police dread the event. They stand in vain [attempting to control the direction of the crowd](https://mainichi.jp/english/graphs/20181101/hpe/00m/0na/001000g/7) that becomes more and more untameable.
 
-Pushing George aside, because we’ve heard enough from him over the years, one thing I know for sure is **teachers can**. Teachers strategise, they lend a listening ear, they juggle 5 tasks at once, they make sure to say the names of all the children in their class daily, they manage child protection issues over their lunch breaks, they are curious, they are learners, they are planners, they are rigorously monitored, they care, they evolve with forever changing curriculums. They adapt.
+And, in all fairness, the event has ballooned at an astronomical rate.
 
-I say to anyone who gets an application from a teacher to put down your cultural lenses as **those who teach, can**. And, they can do so much more.
+Over the last decade, Halloween has grown to become one of the most popular annual events in Japan.
+
+It is no coincidence that this rise in popularity has sat alongside the social media boom; not only is the event highly instagrammable, but it also gives lovers of コスプレ (Cosplay) a stage for the night.
+
+My first ever experience of Halloween in Tokyo was in 2015.
+
+Very much inspired by my higher being that is Lady Gaga, I decided to try and recreate her skeleton garb from the [_Born This Way_ video](https://youtu.be/wV1FrqwZyKw). Note to self, face paint is extremely high maintenance and soon becomes an indistinguishable smudge and unbreathable layer of skin. The pink wig, not the perfect shade I was looking for, in all its fluorescent glory, made its mark amongst the flashing billboards of the city. Mind you, it was about as easy to tame as the Barbie’s hair I mullered in the nineties. Isn’t Barbie’s hair the weirdest material known to humankind?
+
+![Steps of me doing my makeup](/born-kinda-this-way.jpg "Born This Way Kinda")
+
+Yet, my get-up seemed to be a crowd-pleaser. I joined in with the masquerade, posed with others and admired the plethora of costumes.
+
+![Me posing with my fans](/halloween-crowd-pleaser.JPG "15 Minutes of Fame")
+
+Never being a big fan of horror films, I favoured the candy-washed interpretation of scary. In the midst of my joy at Halloween in Tokyo, I was slowly approached by a person convincingly dressed as [Sadako from _The Ring_](https://en.wikipedia.org/wiki/Sadako_Yamamura). Horror movies are not for me. Never have been. Never will be. If I watch anything remotely scary, I say goodbye to a week’s worth of sleep. So, Sadoko approaching me was not high up on my Tokyo list of things to do. Long, black hair approached me. I uttered (squealed), ‘Oh my God’ several times. Unwittingly knowing that in fact, 'Sadako' was Haruka Minowa (箕輪 はるか), a famous comedian and member of the Japanese comedy duo [Harisenbon](https://en.wikipedia.org/wiki/Harisenbon). This interaction had been filmed. And, this is how I ended up on Japanese TV and ticking off one of my ultimate bucket list items; to be laughed at by a floating presenter (you’ll know if you’ve ever watched NHK).
+
+Although I had never been a big enthusiast of Halloween, I could see why this event was so popular. It brought everyone together. It was a glorious street party for anyone who wanted to have fun. No trickery, just a real treat.
+
+Halloween in Tokyo is a must.
+
+Who knows, you may even end up on TV, too. 🎃
+
+![Trump school girl costume](/trump-halloween.jpeg "True Horror")
