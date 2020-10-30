@@ -3,26 +3,27 @@ title: Blue Skies
 date: 2017-02-01T00:00:00.000+00:00
 
 ---
-Ophelia grips her
+  
+Spring sky opens up
 
-As she looks down
+Revealing themselves
 
-Absolutely absorbed
+For the very first time
 
-By the current that
+No longer dressing in disguise
 
-Basks beneath berry-hued blossom
+They exhibit all
 
-Whilst people pose and steer in spring
+In hope of being adored.
 
-With iPhoned shots and faux-warm filters
+After raining down upon those
 
-Selflessly she waits
+Who stood loyally beneath them
 
-As the season dictates
+For months
 
-That all that is present is
+And months
 
-Life.
+On end.
 
 \- Clare Welch
