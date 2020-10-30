@@ -14,7 +14,7 @@ No longer dressing in disguise
 
 They exhibit all
 
-In hope of being adored.
+In hope of being adored
 
 After raining down upon those
 
