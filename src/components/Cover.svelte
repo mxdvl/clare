@@ -1,7 +1,3 @@
-<script lang="ts">
-	export let closed: boolean;
-</script>
-
 <style>
 	.cover {
 		background-color: var(--cover);
@@ -21,10 +17,6 @@
 		box-shadow: 4px 4px 0 #0003;
 	}
 
-	.cover.closed {
-		z-index: 3;
-	}
-
 	h1 {
 		position: absolute;
 		left: 0;
@@ -41,6 +33,6 @@
 	}
 </style>
 
-<div class="cover" class:closed>
+<div class="cover">
 	<h1>CW</h1>
 </div>
