@@ -3,19 +3,10 @@
 		const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 3"><circle cx="2" cy="2" r="1"/></svg>`;
 		return this.fetch(`${params.folder}.json`)
 			.then((r) => r.json())
-			.then(sortDates)
 			.then((posts) => {
 				return { posts, folder: params.folder };
 			});
 	}
-
-	const sortDates = (posts) => {
-		if (typeof posts.slug !== "undefined") return posts;
-		return posts.sort(
-			(first, second) =>
-				new Date(second.date).getTime() - new Date(first.date).getTime()
-		);
-	};
 </script>
 
 <script>
@@ -75,8 +66,7 @@
 			<li>
 				<a rel="prefetch" href="{folder}/{post.slug}">{post.title}</a>
 				<span class="dots" />
-				<span
-					class="mono">{new Date(post.date).getUTCMonth()}.{new Date(post.date).getUTCFullYear()}</span>
+				<span class="mono">{index + 1}</span>
 			</li>
 		{/each}
 	</ul>
