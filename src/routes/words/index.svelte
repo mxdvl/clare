@@ -1,7 +1,7 @@
 <script context="module">
 	export function preload({ params }) {
 		const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 3"><circle cx="2" cy="2" r="1"/></svg>`;
-		return this.fetch(`${params.folder}.json`)
+		return this.fetch('words.json')
 			.then((r) => r.json())
 			.then(sortDates)
 			.then((posts) => {
@@ -10,7 +10,6 @@
 	}
 
 	const sortDates = (posts) => {
-		if (typeof posts.slug !== "undefined") return posts;
 		return posts.sort(
 			(first, second) =>
 				new Date(second.date).getTime() - new Date(first.date).getTime()
@@ -20,7 +19,6 @@
 
 <script>
 	export let posts;
-	export let folder;
 </script>
 
 <style>
@@ -54,7 +52,7 @@
 </style>
 
 <svelte:head>
-	<title>Clare’s {folder}</title>
+	<title>Clare’s words</title>
 </svelte:head>
 
 {#if typeof posts.slug !== 'undefined'}
@@ -64,7 +62,7 @@
 		{@html posts.html}
 	</div>
 {:else if posts.length > 1}
-	<h1>Recent {folder.toUpperCase()}</h1>
+	<h1>Recent words</h1>
 
 	<ul>
 		{#each posts as post, index}
@@ -73,7 +71,7 @@
 				the user hovers over the link or taps it, instead of
 				waiting for the 'click' event -->
 			<li>
-				<a rel="prefetch" href="{folder}/{post.slug}">{post.title}</a>
+				<a rel="prefetch" href="words/{post.slug}">{post.title}</a>
 				<span class="dots" />
 				<span
 					class="mono">{new Date(post.date).getUTCMonth()}.{new Date(post.date).getUTCFullYear()}</span>
