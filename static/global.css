@@ -99,8 +99,8 @@ p:last-child {
 	padding-bottom: 0;
 }
 
-img,
-video {
+main img,
+main video {
 	width: 100%;
 	display: block;
 	border: 1rem solid var(--lines);
@@ -110,18 +110,18 @@ video {
 	margin: 0;
 }
 
-video {
+main video {
 	height: 18rem;
 }
 
 @media screen and (max-width: 36rem) {
-	video {
+	main video {
 		height: 12rem;
 	}
 }
 
 @media screen and (max-width: 24rem) {
-	video {
+	main video {
 		height: 9rem;
 	}
 }
