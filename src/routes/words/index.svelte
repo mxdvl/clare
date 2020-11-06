@@ -5,7 +5,7 @@
 			.then((r) => r.json())
 			.then(sortDates)
 			.then((posts) => {
-				return { posts, folder: params.folder };
+				return { posts };
 			});
 	}
 
