@@ -69,7 +69,8 @@
 </style>
 
 {#if submitted}
-	<p>Thank you for your message!</p>
+	<br />
+	<blockquote>Thank you for your message!</blockquote>
 {:else}
 	<form action={url} method="POST" on:submit|preventDefault={sendMessage}>
 		<label>
