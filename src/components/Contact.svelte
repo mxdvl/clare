@@ -13,7 +13,7 @@
 				"Content-Type": "application/json",
 			},
 			body: JSON.stringify({
-				email,
+				_replyto: email,
 				message,
 			}),
 		}).then((response) => {
