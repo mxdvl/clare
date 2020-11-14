@@ -99,8 +99,8 @@ p:last-child {
 	padding-bottom: 0;
 }
 
-img,
-video {
+main img,
+main video {
 	width: 100%;
 	display: block;
 	border: 1rem solid var(--lines);
@@ -110,18 +110,18 @@ video {
 	margin: 0;
 }
 
-video {
+main video {
 	height: 18rem;
 }
 
 @media screen and (max-width: 36rem) {
-	video {
+	main video {
 		height: 12rem;
 	}
 }
 
 @media screen and (max-width: 24rem) {
-	video {
+	main video {
 		height: 9rem;
 	}
 }
@@ -138,45 +138,4 @@ hr {
 	border-top: solid var(--line) var(--accent);
 	padding: 0;
 	margin: 0;
-}
-
-/* Forms */
-
-label {
-	display: block;
-	padding-bottom: 1rem;
-}
-
-input,
-textarea {
-	background: var(--lines);
-	font-family: inherit;
-	border: none;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	padding: 1rem;
-}
-
-input {
-	height: 3rem;
-}
-
-textarea {
-	height: 18rem;
-}
-
-button {
-	background: var(--accent);
-	border: var(--line) solid var(--text);
-	padding: 0.5rem 1rem;
-	font-family: inherit;
-	font-size: 2rem;
-	transform: rotate(-5deg);
-	display: block;
-	margin: 0 auto;
-}
-
-button:hover {
-	background-color: var(--background);
 }

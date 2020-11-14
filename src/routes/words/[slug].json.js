@@ -4,15 +4,15 @@ import path from "path";
 import grayMatter from "gray-matter";
 import marked from "marked";
 
-const getPost = (folder, slug) =>
-	fs.readFileSync(path.resolve("content", folder, `${slug}.md`), "utf-8");
+const getPost = (slug) =>
+	fs.readFileSync(path.resolve("content", 'words', `${slug}.md`), "utf-8");
 
 export function get(req, res, next) {
 	// the `slug` parameter is available because
 	// this file is called [slug].json.js
-	const { folder, slug } = req.params;
+	const { slug } = req.params;
 
-	const { content, data } = grayMatter(getPost(folder, slug));
+	const { content, data } = grayMatter(getPost(slug));
 	const html = marked(content, { smartypants: true });
 
 	if (content) {

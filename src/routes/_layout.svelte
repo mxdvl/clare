@@ -3,7 +3,7 @@
 	import Nav from "../components/Nav.svelte";
 
 	export let segment: string;
-	export const isClosed = (_segment: string) => _segment === undefined;
+	$: closed = segment === undefined
 </script>
 
 <style>
@@ -57,11 +57,11 @@
 	}
 </style>
 
-<div id="notebook" class:closed={isClosed(segment)}>
+<div id="notebook" class:closed>
 	<Nav {segment} />
-	<Cover closed={isClosed(segment)} />
+	<Cover {closed} />
 
-	{#if !isClosed(segment)}
+	{#if !closed}
 		<main class="page">
 			<slot />
 		</main>
