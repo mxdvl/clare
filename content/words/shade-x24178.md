@@ -1,26 +1,32 @@
 ---
 title: Shade x24178
-date: 2020-10-01T00:00:00+01:00
+date: 2020-11-19T00:00:00Z
 
 ---
-**21st Century Muse**
+Like a wheel
 
-Dams break
+You make me spin
 
-Bombs shake
+To decide upon a best-fit-descriptor
 
-All over the media and news.
+What if my shade does not fit?
 
-Dictators reign
+Just to fit a social criteria?
 
-The world's insane
+Yet society dictates
 
-Is this what we really choose?
+And the haters permeate
 
-Race hate
+The shell I choose not to name.
 
-Complete state
+And so I keep spinning
 
-I hope this is all just a ruse!
+Spiralling away
+
+For I will never be a box
+
+Neither a tick
+
+Nor a quota.
 
 \- Clare Welch
