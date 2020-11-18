@@ -1,26 +1,26 @@
 ---
 title: Seasons Apart
-date: 2020-10-01T00:00:00+01:00
+date: 2019-08-29T00:00:00+01:00
 
 ---
-**21st Century Muse**
+Grey clouds hang like puppets in the sky
 
-Dams break
+No space for blue skies to occupy
 
-Bombs shake
+Summer’s not welcome for very long
 
-All over the media and news.
+Winter comes and banishes birdsong
 
-Dictators reign
+The cold, wet pavements don’t want to hear
 
-The world's insane
+Outdoor venues spraying out Shakespeare
 
-Is this what we really choose?
+People yearn for that warmer weather
 
-Race hate
+No need to wrap up, clad in leather
 
-Complete state
+Seasons sit like neighbours side by side
 
-I hope this is all just a ruse!
+Putting up fences out of sheer pride.
 
 \- Clare Welch
