@@ -1,28 +1,26 @@
 ---
 title: 21st Century Muse
-date: 2017-02-01T00:00:00.000+00:00
+date: 2020-10-01T00:00:00+01:00
 
 ---
-Spring sky opens up
+**21st Century Muse**
 
-Revealing themselves
+Dams break
 
-For the very first time
+Bombs shake
 
-No longer dressing in disguise
+All over the media and news.
 
-They exhibit all
+Dictators reign
 
-In hope of being adored
+The world's insane
 
-After raining down upon those
+Is this what we really choose?
 
-Who stood loyally beneath them
+Race hate
 
-For months
+Complete state
 
-And months
-
-On end.
+I hope this is all just a ruse!
 
 \- Clare Welch
