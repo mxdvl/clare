@@ -3,7 +3,7 @@
 	import Nav from "../components/Nav.svelte";
 
 	export let segment: string;
-	$: closed = segment === undefined
+	$: closed = segment === undefined;
 </script>
 
 <style>

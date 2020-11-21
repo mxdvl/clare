@@ -29,7 +29,7 @@
 </style>
 
 <svelte:head>
-	<title>{status}</title>
+	<title>Error</title>
 </svelte:head>
 
 <h1>{status}</h1>

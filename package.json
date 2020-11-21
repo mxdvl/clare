@@ -7,7 +7,7 @@
     "build": "sapper build --legacy",
 		"export": "yarn export:icons && yarn export:sapper" ,
 		"export:icons" : "node src/sharp.js",
-		"export:sapper": "sapper export --legacy",
+		"export:sapper": "sapper export --legacy --entry '/ /error'",
     "start": "node __sapper__/build",
     "validate": "svelte-check --ignore src/node_modules/@sapper"
 	},
