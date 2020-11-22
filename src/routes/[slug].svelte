@@ -1,16 +1,9 @@
 <script context="module">
 	export function preload({ params }) {
-		const errorPage = {
-			title: "Whoops",
-			html: `That was an error.<br><br>Try another page, as it looks like <strong>${params.slug}</strong> does not exist…`,
-		};
 		return this.fetch(`${params.slug}.json`)
 			.then((r) => r.json())
 			.then((page) => {
-				if (page.title === undefined)
-					return {
-						page: errorPage,
-					};
+				if (page.error) this.error(404, "Not Found");
 				return { page };
 			});
 	}

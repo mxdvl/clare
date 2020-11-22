@@ -2,8 +2,11 @@
 	import Cover from "../components/Cover.svelte";
 	import Nav from "../components/Nav.svelte";
 
+	import { stores } from "@sapper/app";
+	const { preloading, page, session } = stores();
+
 	export let segment: string;
-	$: closed = segment === undefined;
+	$: closed = segment === undefined && $page.error === null;
 </script>
 
 <style>
