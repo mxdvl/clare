@@ -3,6 +3,7 @@
 		return this.fetch(`${params.slug}.json`)
 			.then((r) => r.json())
 			.then((page) => {
+				if (page.error) this.error(404, "Not Found");
 				return { page };
 			});
 	}
