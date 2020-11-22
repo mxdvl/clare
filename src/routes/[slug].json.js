@@ -32,7 +32,6 @@ export function get(req, res) {
 				slug: "error",
 				title: "Whoops",
 				error: true,
-				html: `Sorry, there is no such page.<br><br><hr>Try looking somewhere else, as it looks like <strong>/${slug}</strong> does not exist…`,
 			})
 		);
 	}

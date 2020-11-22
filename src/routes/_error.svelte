@@ -32,9 +32,15 @@
 	<title>Error</title>
 </svelte:head>
 
-<h1>{status}</h1>
+<h1>Whoops!</h1>
 
-<p>{error.message}</p>
+<div class="content">
+	Sorry, there is no such page.<br /><br />
+	<hr />
+	Try looking somewhere else, as it looks like
+	<strong>/error</strong>
+	does not exist…
+</div>
 
 {#if dev && error.stack}
 	<pre>{error.stack}</pre>
