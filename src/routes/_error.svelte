@@ -2,6 +2,9 @@
 	export let status: number;
 	export let error: Error;
 
+	import { stores } from "@sapper/app";
+	const { page } = stores();
+
 	const dev = process.env.NODE_ENV === "development";
 </script>
 
@@ -15,9 +18,9 @@
 	<p>Sorry, there is no such page.</p>
 	<hr />
 	<p>
-		Try looking somewhere else, as it looks like
-		<strong>/error</strong>
-		does not exist…
+		Try looking somewhere else, as it looks like the following page could not be
+		found:
+		<strong>clare.ink{$page.path}</strong>
 	</p>
 </div>
 
