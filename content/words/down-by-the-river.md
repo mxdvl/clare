@@ -15,14 +15,14 @@ Basks beneath berry-hued blossom
 
 Whilst people pose and steer in spring
 
-With iPhoned shots and faux-warm filters
+With iPhone-shots and faux-warm filters.
 
-Selflessly she waits
+Selflessly, she waits
 
 As the season dictates
 
-That all that is present is
+That all that is present 
 
-Life.
+Is life.
 
 \- Clare Welch
