@@ -2,11 +2,37 @@
 	import Cover from "../components/Cover.svelte";
 	import Nav from "../components/Nav.svelte";
 
+	import { onMount } from "svelte";
 	import { stores } from "@sapper/app";
 	const { preloading, page, session } = stores();
 
 	export let segment: string;
 	$: closed = segment === undefined && $page.error === null;
+
+	onMount(() => {
+		const pageWidth = document.querySelector(".page").clientWidth;
+		const images = document.querySelectorAll("img");
+		images.forEach((image) => {
+			image.addEventListener("load", () => {
+				const ratio = image.naturalWidth / image.naturalHeight;
+				const height = Math.round(pageWidth / ratio / 20);
+				image.style.height = `${height}rem`;
+
+				console.log(ratio);
+			});
+		});
+
+		const videos = document.querySelectorAll("video");
+		videos.forEach((video) => {
+			video.addEventListener("progress", () => {
+				const ratio = video.videoWidth / video.videoHeight;
+				const height = Math.round(pageWidth / ratio / 20);
+				video.style.height = `${height}rem`;
+
+				console.log(ratio);
+			});
+		});
+	});
 </script>
 
 <style>
