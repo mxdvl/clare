@@ -16,6 +16,7 @@
 
 	const setResponsiveElements = () => {
 		node = document.querySelector(".page");
+		if (!node) return Promise.resolve(["no node"]);
 		const promises: Promise<string>[] = [];
 		images = node.querySelectorAll("img");
 		images.forEach((image) =>
@@ -44,7 +45,6 @@
 				})
 			)
 		);
-		console.log(promises);
 		return Promise.all(promises);
 	};
 
@@ -58,7 +58,6 @@
 
 	const handlePageResize = () => {
 		setResponsiveElements().then(() => {
-			console.log(images, videos);
 			images.forEach(setSize);
 			videos.forEach(setSize);
 		});
