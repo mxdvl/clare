@@ -1,12 +1,69 @@
 <script lang="ts">
+	import { stores } from "@sapper/app";
+	import { onMount } from "svelte";
+	import resize from "svelte-actions-resize";
 	import Cover from "../components/Cover.svelte";
 	import Nav from "../components/Nav.svelte";
 
-	import { stores } from "@sapper/app";
 	const { preloading, page, session } = stores();
 
 	export let segment: string;
 	$: closed = segment === undefined && $page.error === null;
+
+	let node: HTMLElement;
+	let images: NodeListOf<HTMLImageElement>;
+	let videos: NodeListOf<HTMLVideoElement>;
+
+	const setResponsiveElements = () => {
+		node = document.querySelector(".page");
+		if (!node) return Promise.resolve(["no node"]);
+		const promises: Promise<string>[] = [];
+		images = node.querySelectorAll("img");
+		images.forEach((image) =>
+			promises.push(
+				new Promise(async (resolve) => {
+					if (image.dataset.loaded === "loaded") resolve(image.dataset.ratio);
+					await image.decode();
+					const ratio = image.naturalWidth / image.naturalHeight;
+					image.dataset.ratio = ratio.toString();
+					image.dataset.loaded = "loaded";
+					resolve(ratio.toString());
+				})
+			)
+		);
+		videos = node.querySelectorAll("video");
+		videos.forEach((video) =>
+			promises.push(
+				new Promise((resolve) => {
+					if (video.dataset.loaded === "loaded") resolve(video.dataset.ratio);
+					video.addEventListener("loadedmetadata", () => {
+						const ratio = video.videoWidth / video.videoHeight;
+						video.dataset.ratio = ratio.toString();
+						video.dataset.loaded = "loaded";
+						resolve(ratio.toString());
+					});
+				})
+			)
+		);
+		return Promise.all(promises);
+	};
+
+	const setSize = (element: HTMLElement) => {
+		const pageWidth = node.clientWidth;
+
+		const ratio = parseFloat(element.dataset.ratio);
+		const height = Math.round(pageWidth / ratio / 20);
+		element.style.height = `${height}rem`;
+	};
+
+	const handlePageResize = () => {
+		setResponsiveElements().then(() => {
+			images.forEach(setSize);
+			videos.forEach(setSize);
+		});
+	};
+
+	onMount(setResponsiveElements);
 </script>
 
 <style>
@@ -65,7 +122,7 @@
 	<Cover {closed} />
 
 	{#if !closed}
-		<main class="page">
+		<main class="page" use:resize on:resize={handlePageResize}>
 			<slot />
 		</main>
 	{/if}

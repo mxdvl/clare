@@ -25,5 +25,6 @@
 </div>
 
 {#if dev && error.stack}
+	<h3>{status}</h3>
 	<pre>{error.stack}</pre>
 {/if}

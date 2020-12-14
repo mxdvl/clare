@@ -114,18 +114,6 @@ main video {
 	height: 18rem;
 }
 
-@media screen and (max-width: 36rem) {
-	main video {
-		height: 12rem;
-	}
-}
-
-@media screen and (max-width: 24rem) {
-	main video {
-		height: 9rem;
-	}
-}
-
 blockquote {
 	background-color: var(--lines);
 	margin: 0;
