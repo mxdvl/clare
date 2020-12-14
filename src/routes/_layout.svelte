@@ -1,38 +1,70 @@
 <script lang="ts">
+	import { stores } from "@sapper/app";
+	import { onMount } from "svelte";
+	import resize from "svelte-actions-resize";
 	import Cover from "../components/Cover.svelte";
 	import Nav from "../components/Nav.svelte";
 
-	import { onMount } from "svelte";
-	import { stores } from "@sapper/app";
 	const { preloading, page, session } = stores();
 
 	export let segment: string;
 	$: closed = segment === undefined && $page.error === null;
 
-	onMount(() => {
-		const pageWidth = document.querySelector(".page").clientWidth;
-		const images = document.querySelectorAll("img");
-		images.forEach((image) => {
-			image.addEventListener("load", () => {
-				const ratio = image.naturalWidth / image.naturalHeight;
-				const height = Math.round(pageWidth / ratio / 20);
-				image.style.height = `${height}rem`;
+	let node: HTMLElement;
+	let images: NodeListOf<HTMLImageElement>;
+	let videos: NodeListOf<HTMLVideoElement>;
 
-				console.log(ratio);
-			});
+	const setResponsiveElements = () => {
+		node = document.querySelector(".page");
+		const promises: Promise<string>[] = [];
+		images = node.querySelectorAll("img");
+		images.forEach((image) =>
+			promises.push(
+				new Promise(async (resolve) => {
+					if (image.dataset.loaded === "loaded") resolve(image.dataset.ratio);
+					await image.decode();
+					const ratio = image.naturalWidth / image.naturalHeight;
+					image.dataset.ratio = ratio.toString();
+					image.dataset.loaded = "loaded";
+					resolve(ratio.toString());
+				})
+			)
+		);
+		videos = node.querySelectorAll("video");
+		videos.forEach((video) =>
+			promises.push(
+				new Promise((resolve) => {
+					if (video.dataset.loaded === "loaded") resolve(video.dataset.ratio);
+					video.addEventListener("progress", () => {
+						const ratio = video.videoWidth / video.videoHeight;
+						video.dataset.ratio = ratio.toString();
+						video.dataset.loaded = "loaded";
+						resolve(ratio.toString());
+					});
+				})
+			)
+		);
+		console.log(promises);
+		return Promise.all(promises);
+	};
+
+	const setSize = (element: HTMLElement) => {
+		const pageWidth = node.clientWidth;
+
+		const ratio = parseFloat(element.dataset.ratio);
+		const height = Math.round(pageWidth / ratio / 20);
+		element.style.height = `${height}rem`;
+	};
+
+	const handlePageResize = () => {
+		setResponsiveElements().then(() => {
+			console.log(images, videos);
+			images.forEach(setSize);
+			videos.forEach(setSize);
 		});
+	};
 
-		const videos = document.querySelectorAll("video");
-		videos.forEach((video) => {
-			video.addEventListener("progress", () => {
-				const ratio = video.videoWidth / video.videoHeight;
-				const height = Math.round(pageWidth / ratio / 20);
-				video.style.height = `${height}rem`;
-
-				console.log(ratio);
-			});
-		});
-	});
+	onMount(setResponsiveElements);
 </script>
 
 <style>
@@ -91,7 +123,7 @@
 	<Cover {closed} />
 
 	{#if !closed}
-		<main class="page">
+		<main class="page" use:resize on:resize={handlePageResize}>
 			<slot />
 		</main>
 	{/if}
