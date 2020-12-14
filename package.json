@@ -10,7 +10,7 @@
     "export:sapper": "sapper export --legacy --entry '/ /error'",
     "start": "node __sapper__/build",
     "validate": "svelte-check --ignore src/node_modules/@sapper"
-	},
+  },
   "dependencies": {
     "compression": "^1.7.4",
     "polka": "0.5.2",
@@ -42,6 +42,7 @@
     "sapper": "^0.28.10",
     "sharp": "^0.26.3",
     "svelte": "^3.29.7",
+    "svelte-actions-resize": "^0.1.1",
     "svelte-check": "^1.1.15",
     "svelte-preprocess": "^4.6.1",
     "tslib": "^2.0.3",
