@@ -36,7 +36,7 @@
 			promises.push(
 				new Promise((resolve) => {
 					if (video.dataset.loaded === "loaded") resolve(video.dataset.ratio);
-					video.addEventListener("progress", () => {
+					video.addEventListener("loadedmetadata", () => {
 						const ratio = video.videoWidth / video.videoHeight;
 						video.dataset.ratio = ratio.toString();
 						video.dataset.loaded = "loaded";
