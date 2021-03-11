@@ -1,26 +1,48 @@
 ---
 title: Snow
-date: 2020-10-01T00:00:00.000+01:00
+date: 2021-03-11T15:00:00Z
 
 ---
-**21st Century Muse**
+**Snow**
 
-Dams break
+Like you and I, it differs from day-to-day
 
-Bombs shake
+Sometimes, it cracks like crème brulée
 
-All over the media and news.
+To reveal a soft centre it stows away.
 
-Dictators reign
+Sometimes, like confetti it purposely scatters itself
 
-The world's insane
+Similar to flowers carefully arranged on a shelf.
 
-Is this what we really choose?
+Like you and I, it differs from day-to-day
 
-Race hate
+Sometimes it rolls and sticks,
 
-Complete state
+Other times, it’s impossible to fix.
 
-I hope this is all just a ruse!
+It sifts through like hot sand
 
-\- Clare Welch
+It melts in the palm of a warm hand
+
+It ices over in the cold of the night
+
+It blinds temporarily seizing your sight.
+
+Like you and I, it never stays still
+
+Difficult to define
+
+Full of determination and will.
+
+Like you and I, it twinkles under the moon
+
+Like you and I, it dazzles under the sun
+
+Like you and I, it shines.
+
+\- Clare Welch 
+
+> Written in Canada. Snow, like many things, is so hard to define. Sometimes, it's best to appreciate nature, things and people for what and who they are on a day-to-day basis. Definitions can be so restrictive. 
+>
+> Sometimes, it's best to just let things be.
