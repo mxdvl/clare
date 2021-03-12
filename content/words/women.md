@@ -1,26 +1,20 @@
 ---
 title: WoMen
-date: 2020-10-01T00:00:00.000+01:00
+date: 2017-03-10T00:00:00Z
 
 ---
-**21st Century Muse**
+**WoMen**
 
-Dams break
+W
 
-Bombs shake
+O
 
-All over the media and news.
+**M**
 
-Dictators reign
+Equality
 
-The world's insane
-
-Is this what we really choose?
-
-Race hate
-
-Complete state
-
-I hope this is all just a ruse!
+Now
 
 \- Clare Welch
+
+> Equality involves everyone. How are you helping the situation?
