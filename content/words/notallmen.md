@@ -5,8 +5,6 @@ date: 2021-03-13T00:00:00Z
 ---
 **#notALLmen**
 
-\#notallmen
-
 Not all men, they gripe
 
 Not all men, they snipe
