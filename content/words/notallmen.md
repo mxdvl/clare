@@ -3,54 +3,34 @@ title: "#notallmen"
 date: 2021-03-13T00:00:00Z
 
 ---
-Not all men, they gripe
-
-Not all men, they snipe
-
-From the comfort of their computer-lit rooms.
-
-“Leave me alone,” they insist
-
-“Get off me,” they persist
-
+Not all men, they gripe  
+Not all men, they snipe  
+From the comfort of their computer-lit rooms.  
+“Leave me alone,” they insist  
+“Get off me,” they persist  
 From within their rigid four walls and bathrooms.
 
-Not all men, they moan
+Not all men, they moan  
+Not all men, they groan  
+Cowardly, clicking away on keyboards.  
+“We want to be safe,” they cry  
+“We want to be free,” they sigh  
+Bravely, standing up in the House of Lords.
 
-Not all men, they groan
-
-Cowardly clicking away on keyboards.
-
-“We want to be safe,” they cry
-
-“We want to be free,” they sigh
-
-Bravely standing up in the House of Lords.
-
-“Not all men, you say?”
-
-Not all men, “OK…”
-
-“If not all men, then what is it then?”
-
-As
-
-“Not all women!”
-
-They chant
-
-“Not all women!”
-
+“Not all men, you say?”  
+Not all men, “OK…”  
+“If not all men, then what is it then?”  
+As  
+“Not all women!”  
+They chant  
+“Not all women!”  
 They chant
 
 Again and again and again
 
-Want to adhere
-
-To men
-
-Want to live in fear
-
+Want to adhere  
+To men  
+Want to live in fear  
 Of men
 
 Again and again,
