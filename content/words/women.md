@@ -3,8 +3,6 @@ title: WoMen
 date: 2017-03-10T00:00:00Z
 
 ---
-**WoMen**
-
 W
 
 O
