@@ -46,7 +46,7 @@
 		background-position: right center;
 	}
 
-	.mono {
+	time {
 		font-weight: lighter;
 	}
 </style>
@@ -73,8 +73,8 @@
 			<li>
 				<a rel="prefetch" href="words/{post.slug}">{post.title}</a>
 				<span class="dots" />
-				<span
-					class="mono">{new Date(post.date).getUTCMonth()}.{new Date(post.date).getUTCFullYear()}</span>
+				<time
+					datetime={post.date.substring(0,10)} >{new Date(post.date).getUTCMonth()+1}.{new Date(post.date).getUTCFullYear()}</time>
 			</li>
 		{/each}
 	</ul>
