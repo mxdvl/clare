@@ -39,4 +39,4 @@ Not again.
 
 \- Clare Welch
 
-> [Most women](https://www.theguardian.com/world/2021/mar/10/almost-all-young-women-in-the-uk-have-been-sexually-harassed-survey-finds) in the UK are subjected to sexual harassment. Most woman in the UK feel that they have to police their own safety and that of their peers. Most women have lost trust. Most women want change and not all men are happy with that. Step up, men. Women have done their part.
+> [Most women](https://www.theguardian.com/world/2021/mar/10/almost-all-young-women-in-the-uk-have-been-sexually-harassed-survey-finds) in the UK are subjected to sexual harassment. Most women in the UK feel that they have to police their own safety and that of their peers. Most women have lost trust. Most women want change and not all men are happy with that. Step up, men. Women have done their part.
