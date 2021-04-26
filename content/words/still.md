@@ -1,18 +1,14 @@
 ---
 title: Still
-date: 2017-03-10T00:00:00.000+00:00
+date: 2021-04-26T12:30:00+01:00
 
 ---
-W
+Silence sits and waits for sound to interrupt
 
-O
+Like a bird that breaks the morning still.
 
-**M**
+Silence only waits
 
-Equality
-
-Now
+For it is never truly alone.
 
 \- Clare Welch
-
-> Equality involves everyone. How are you helping the situation?
