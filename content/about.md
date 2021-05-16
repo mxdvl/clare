@@ -6,7 +6,7 @@ Nice to meet you. 👋
 
 I’m **Clare** without an **i**.
 
-Currently teaching myself about the world of UX. Passionate about bringing stories to life and helping others through [design ](https://design.clare.ink)and learning.
+Currently teaching myself about the world of UX. Passionate about bringing stories to life and helping others through [design](https://design.clare.ink) and learning.
 
 Say hey@clare.ink, always down for a coffee or a chat.
 
