@@ -17,11 +17,11 @@ Whilst people pose and steer in spring
 
 With iPhone-shots and faux-warm filters.
 
-Selflessly, she waits
+Patiently, she waits
 
 As the season dictates
 
-That all that is present 
+That all that is present
 
 Is life.
 
