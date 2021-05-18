@@ -1,6 +1,6 @@
 ---
 title: Snow
-date: 2021-03-11T15:00:00Z
+date: 2021-03-11T15:00:00.000+00:00
 
 ---
 **Snow**
@@ -41,8 +41,8 @@ Like you and I, it dazzles under the sun
 
 Like you and I, it shines.
 
-\- Clare Welch 
+\- Clare Welch
 
-> Written in Canada. Snow, like many things, is so hard to define. Sometimes, it's best to appreciate nature, things and people for what and who they are on a day-to-day basis. Definitions can be so restrictive. 
+> Written in Canada. Snow, like many things, is so hard to define. Sometimes, it's best to just step back and observe. Things change. People change. Definitions can be so restrictive.
 >
 > Sometimes, it's best to just let things be.
