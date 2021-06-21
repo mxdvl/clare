@@ -21,15 +21,15 @@ Drinks are chugged
 
 Tables touch.
 
-_Biru, niku_ — _“Kampai!”_
+_Biru, niku_ — _“Sumimasen!“_
 
 Smoke filled air
 
 Loosened ties
 
-Night goes on…
+Countless drinks
 
-Another late one in the office.
+Night goes on…
 
 ***
 
@@ -43,4 +43,4 @@ Another late one in the office.
 >
 > **It's where working relationships are cemented.**
 >
-> **Like no other place: it's an izakaya.**
+> **It's an izakaya.**
