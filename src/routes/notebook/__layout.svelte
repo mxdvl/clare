@@ -1,20 +1,19 @@
 <script lang="ts">
-	import { stores } from "@sapper/app";
+	import { page } from "$app/stores";
 	import { onMount } from "svelte";
+	// @ts-expect-error -- no type definition
 	import resize from "svelte-actions-resize";
 	import Cover from "../components/Cover.svelte";
 	import Nav from "../components/Nav.svelte";
 
-	const { preloading, page, session } = stores();
-
-	export let segment: string;
-	$: closed = segment === undefined && $page.error === null;
+	$: closed = $page.url.pathname === "/" && $page.error === null;
 
 	let node: HTMLElement;
 	let images: NodeListOf<HTMLImageElement>;
 	let videos: NodeListOf<HTMLVideoElement>;
 
 	const setResponsiveElements = () => {
+		// @ts-expect-error -- We’re pretty sure it will be there;
 		node = document.querySelector(".page");
 		if (!node) return Promise.resolve(["no node"]);
 		const promises: Promise<string>[] = [];
@@ -22,7 +21,8 @@
 		images.forEach((image) =>
 			promises.push(
 				new Promise(async (resolve) => {
-					if (image.dataset.loaded === "loaded") resolve(image.dataset.ratio);
+					if (image.dataset.loaded === "loaded")
+						resolve(image.dataset.ratio ?? "1");
 					await image.decode();
 					const ratio = image.naturalWidth / image.naturalHeight;
 					image.dataset.ratio = ratio.toString();
@@ -35,7 +35,8 @@
 		videos.forEach((video) =>
 			promises.push(
 				new Promise((resolve) => {
-					if (video.dataset.loaded === "loaded") resolve(video.dataset.ratio);
+					if (video.dataset.loaded === "loaded")
+						resolve(video.dataset.ratio ?? "1");
 					video.addEventListener("loadedmetadata", () => {
 						const ratio = video.videoWidth / video.videoHeight;
 						video.dataset.ratio = ratio.toString();
@@ -51,7 +52,7 @@
 	const setSize = (element: HTMLElement) => {
 		const pageWidth = node.clientWidth;
 
-		const ratio = parseFloat(element.dataset.ratio);
+		const ratio = parseFloat(element.dataset.ratio ?? "1");
 		const height = Math.round(pageWidth / ratio / 20);
 		element.style.height = `${height}rem`;
 	};
@@ -65,6 +66,17 @@
 
 	onMount(setResponsiveElements);
 </script>
+
+<div id="notebook" class:closed>
+	<Nav />
+	<Cover {closed} />
+
+	{#if !closed}
+		<main class="page" use:resize on:resize={handlePageResize}>
+			<slot />
+		</main>
+	{/if}
+</div>
 
 <style>
 	#notebook {
@@ -116,14 +128,3 @@
 			0 12px 0 -2px var(--paper), 0 12px 0 var(--text);
 	}
 </style>
-
-<div id="notebook" class:closed>
-	<Nav {segment} />
-	<Cover {closed} />
-
-	{#if !closed}
-		<main class="page" use:resize on:resize={handlePageResize}>
-			<slot />
-		</main>
-	{/if}
-</div>

@@ -1,6 +1,32 @@
 <script lang="ts">
-	export let segment: string;
+	import { page } from "$app/stores";
 </script>
+
+<nav>
+	<ul>
+		<li>
+			<a
+				rel="prefetch"
+				class="home"
+				aria-current={$page.url.pathname === "/" ? "page" : undefined}
+				href=".">家</a
+			>
+		</li>
+
+		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
+				 the blog data when we hover over the link or tap it on a touchscreen -->
+		{#each ["about", "words", "contact"] as folder}
+			<li>
+				<a
+					rel="prefetch"
+					class={folder}
+					aria-current={$page.url.pathname === folder ? "page" : undefined}
+					href={folder}>{folder}</a
+				>
+			</li>
+		{/each}
+	</ul>
+</nav>
 
 <style>
 	nav {
@@ -63,29 +89,3 @@
 		transform: rotate(0);
 	}
 </style>
-
-<nav>
-	<ul>
-		<li>
-			<a
-				rel="prefetch"
-				class="home"
-				aria-current={segment === undefined ? 'page' : undefined}
-				href=".">家</a>
-		</li>
-
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-				 the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a href="https://design.clare.ink/about">about</a></li>
-		{#each ['words'] as folder}
-			<li>
-				<a
-					rel="prefetch"
-					class={folder}
-					aria-current={segment === folder ? 'page' : undefined}
-					href={folder}>{folder}</a>
-			</li>
-		{/each}
-		<li><a href="https://design.clare.ink/getintouch">contact</a></li>
-	</ul>
-</nav>

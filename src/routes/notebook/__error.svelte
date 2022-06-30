@@ -2,8 +2,7 @@
 	export let status: number;
 	export let error: Error;
 
-	import { stores } from "@sapper/app";
-	const { page } = stores();
+	import { page } from "$app/stores";
 
 	const dev = process.env.NODE_ENV === "development";
 </script>
@@ -20,7 +19,7 @@
 	<p>
 		Try looking somewhere else, as it looks like the following page could not be
 		found:
-		<strong>clare.ink{$page.path}</strong>
+		<strong>clare.ink{$page.url.pathname}</strong>
 	</p>
 </div>
 
