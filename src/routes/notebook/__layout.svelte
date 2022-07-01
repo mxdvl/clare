@@ -3,8 +3,8 @@
 	import { onMount } from "svelte";
 	// @ts-expect-error -- no type definition
 	import resize from "svelte-actions-resize";
-	import Cover from "../components/Cover.svelte";
-	import Nav from "../components/Nav.svelte";
+	import Cover from "$lib/components/Cover.svelte";
+	import Nav from "$lib/components/Nav.svelte";
 
 	$: closed = $page.url.pathname === "/" && $page.error === null;
 

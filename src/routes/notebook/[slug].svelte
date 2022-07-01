@@ -10,7 +10,7 @@
 </script>
 
 <script lang="ts">
-	import Contact from "../components/Contact.svelte";
+	import Contact from "$lib/components/Contact.svelte";
 
 	export let page: Record<string, string>;
 </script>
