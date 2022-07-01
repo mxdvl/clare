@@ -11,7 +11,7 @@ export type Post = {
 	html?: string;
 };
 
-const path = resolve("content", "words");
+const path = resolve(".", "content", "words");
 
 const getAllPosts = (): Post[] =>
 	readdirSync(path)

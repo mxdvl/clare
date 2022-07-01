@@ -11,10 +11,12 @@ export type Page = {
 	slug: string;
 };
 
-const isPage = (slug: string) => existsSync(resolve("content", `${slug}.md`));
+const path = resolve(".", "content");
+
+const isPage = (slug: string) => existsSync(resolve(path, `${slug}.md`));
 
 const getPage = (slug: string): Page => {
-	const md = readFileSync(resolve("content", `${slug}.md`), "utf-8");
+	const md = readFileSync(resolve(path, `${slug}.md`), "utf-8");
 	const { content, data } = grayMatter(md);
 	const html = marked(content, { smartypants: true });
 

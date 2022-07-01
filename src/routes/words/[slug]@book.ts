@@ -9,7 +9,7 @@ import type { Post } from "./index@book";
 export const get: RequestHandler = async ({ params }) => {
 	const { slug } = params;
 
-	const filename = resolve("content", "words", `${slug}.md`);
+	const filename = resolve(".", "content", "words", `${slug}.md`);
 
 	if (!existsSync(filename)) return { status: 404 };
 
