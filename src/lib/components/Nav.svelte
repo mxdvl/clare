@@ -13,15 +13,15 @@
 			>
 		</li>
 
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-				 the blog data when we hover over the link or tap it on a touchscreen -->
 		{#each ["about", "words", "contact"] as folder}
 			<li>
 				<a
 					rel="prefetch"
 					class={folder}
-					aria-current={$page.url.pathname === folder ? "page" : undefined}
-					href={folder}>{folder}</a
+					aria-current={$page.url.pathname === `/${folder}`
+						? "page"
+						: undefined}
+					href={`/${folder}`}>{folder}</a
 				>
 			</li>
 		{/each}

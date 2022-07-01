@@ -23,6 +23,34 @@
 	};
 </script>
 
+<svelte:head>
+	<title>Contact Clare</title>
+</svelte:head>
+
+<h1>Get in touch</h1>
+
+<p>
+	Say<a href="mailto:hey@clare.ink">hey@clare.ink</a>
+</p>
+<p>Or 👇</p>
+
+{#if submitted}
+	<br />
+	<blockquote>Thank you for your message!</blockquote>
+{:else}
+	<form action={url} method="POST" on:submit|preventDefault={sendMessage}>
+		<label>
+			<p>Your email:</p>
+			<input type="text" name="_replyto" required bind:value={email} />
+		</label>
+		<label>
+			<p>Your message:</p>
+			<textarea name="message" bind:value={message} />
+		</label>
+		<button type="submit">Send</button>
+	</form>
+{/if}
+
 <style>
 	label {
 		display: block;
@@ -67,23 +95,3 @@
 		transform: rotate(-3deg) scale(1.1);
 	}
 </style>
-
-{#if submitted}
-	<br />
-	<blockquote>Thank you for your message!</blockquote>
-{:else}
-	<form action={url} method="POST" on:submit|preventDefault={sendMessage}>
-		<label>
-			<p>Your email:</p><input
-				type="text"
-				name="_replyto"
-				required
-				bind:value={email} />
-		</label>
-		<label>
-			<p>Your message:</p>
-			<textarea name="message" bind:value={message} />
-		</label>
-		<button type="submit">Send</button>
-	</form>
-{/if}

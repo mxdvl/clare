@@ -1,5 +1,8 @@
 <script type="ts">
-	import type { Post } from ".";
+	import type { Post } from "./index@book";
+
+	const formatted = (date: Date): `${string}.${string}` =>
+		`${date.getUTCMonth() + 1}.${date.getUTCFullYear()}`;
 
 	export let posts: Post[];
 </script>
@@ -12,18 +15,12 @@
 	<h1>Recent words</h1>
 
 	<ul>
-		{#each posts as post, index}
-			<!-- we're using the non-standard `rel=prefetch` attribute to
-				tell Sapper to load the data for the page as soon as
-				the user hovers over the link or taps it, instead of
-				waiting for the 'click' event -->
+		{#each posts as { slug, title, date }}
 			<li>
-				<a rel="prefetch" href="words/{post.slug}">{post.title}</a>
+				<a rel="prefetch" href="words/{slug}">{title}</a>
 				<span class="dots" />
-				<time datetime={post.date.substring(0, 10)}
-					>{new Date(post.date).getUTCMonth() + 1}.{new Date(
-						post.date
-					).getUTCFullYear()}</time
+				<time datetime={new Date(date).toISOString().slice(0, 10)}
+					>{formatted(new Date(date))}</time
 				>
 			</li>
 		{/each}
