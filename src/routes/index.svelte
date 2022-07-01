@@ -6,17 +6,19 @@
 	<h1>Nice to meet you. 👋</h1>
 
 	<p>
-		I’m <bold>Clare</bold> without an <bold>i</bold>.
+		I’m <strong>Clare</strong> without an <strong>i</strong>.
 	</p>
-
-	<p>A User Researcher working at Sopra Steria.</p>
 
 	<p>
-		Say <a href="mailto:hey@clare.ink">hey@clare.ink</a>, or find me
-		<a href="http://linkedin.com/in/clare-welch">on LinkedIn</a>.
+		A User Researcher working on <a
+			href="https://medium.com/sopra-steria-uk-design-team/tagged/user-research"
+			>the Sopra Steria Design Team</a
+		>.
 	</p>
 
-	<h2>Read some of my recent posts:</h2>
+	<h2>
+		Read some of <a href="https://clarelwelch.medium.com/">my recent posts</a>:
+	</h2>
 
 	<ul>
 		<li>
@@ -24,7 +26,21 @@
 				>Using Trello for User Research | UX Collective</a
 			>
 		</li>
+		<li>
+			<a
+				href="https://clarelwelch.medium.com/reviewing-the-user-experience-of-language-learning-in-schools-cafc355edea0"
+				>Reviewing the ‘user experience’ of language learning in schools</a
+			>
+		</li>
 	</ul>
+
+	<p>
+		If you want to get in touch, it’s <a href="mailto:hey@clare.ink"
+			>hey@clare.ink</a
+		>
+		or you can find me
+		<a href="http://linkedin.com/in/clare-welch">on LinkedIn</a>.
+	</p>
 
 	<p>
 		In my free time, I love socialising, writing, watching a good series or
@@ -33,15 +49,14 @@
 		trying new foods and eating pizza.
 	</p>
 
-	<p>Way too much pizza.</p>
+	<p>Way too much pizza. 🍕</p>
 </main>
 
 <style>
 	main {
 		position: relative;
 		max-width: 24rem;
-		margin: auto;
-		margin-top: 2rem;
+		margin: 2rem auto;
 
 		color: var(--text);
 		background-color: var(--paper);
@@ -70,7 +85,7 @@
 	}
 
 	h2 {
-		font-size: 0.95rem;
+		font-size: 1em;
 		line-height: 1rem;
 		padding-bottom: 1rem;
 	}
