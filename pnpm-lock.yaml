@@ -5,6 +5,7 @@ specifiers:
   '@sveltejs/kit': 1.0.0-next.357
   '@types/marked': ^4.0.3
   '@types/node': ^14.14.13
+  '@types/sharp': ^0.30.4
   '@typescript-eslint/eslint-plugin': ^5.27.0
   '@typescript-eslint/parser': ^5.27.0
   eslint: ^8.16.0
@@ -27,6 +28,7 @@ dependencies:
   '@sveltejs/kit': 1.0.0-next.357_svelte@3.48.0
   '@types/marked': 4.0.3
   '@types/node': 14.18.21
+  '@types/sharp': 0.30.4
   '@typescript-eslint/eslint-plugin': 5.30.0_5mtqsiui4sk53pmkx7i7ue45wm
   '@typescript-eslint/parser': 5.30.0_b5e7v2qnwxfo6hmiq56u52mz3e
   eslint: 8.18.0
@@ -247,6 +249,12 @@ packages:
 
   /@types/sass/1.43.1:
     resolution: {integrity: sha512-BPdoIt1lfJ6B7rw35ncdwBZrAssjcwzI5LByIrYs+tpXlj/CAkuVdRsgZDdP4lq5EjyWzwxZCqAoFyHKFwp32g==}
+    dependencies:
+      '@types/node': 14.18.21
+    dev: false
+
+  /@types/sharp/0.30.4:
+    resolution: {integrity: sha512-6oJEzKt7wZeS7e+6x9QFEOWGs0T/6of00+0onZGN1zSmcSjcTDZKgIGZ6YWJnHowpaKUCFBPH52mYljWqU32Eg==}
     dependencies:
       '@types/node': 14.18.21
     dev: false

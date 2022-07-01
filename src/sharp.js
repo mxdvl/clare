@@ -1,5 +1,5 @@
-const sharp = require("sharp");
-const path = require("path");
+import sharp from "sharp";
+import { resolve } from "path";
 
 const folder = "static";
 
@@ -8,16 +8,15 @@ const DENSITY = 72;
 
 const sizes = [16, 32, 64, 128, 180, 192, 256, 512];
 
-sizes.map((size) => {
+for (const size of sizes) {
 	const file = `notebook-${size}.png`;
-	sharp(path.resolve(folder, "favicon.svg"), {
-		density: DENSITY * (size / CANVAS),
-	})
-		.toFile(path.resolve(folder, file))
-		.then((info) => {
-			console.log(`${file} - ${info.size} bits`);
+	try {
+		const { size: bits } = await sharp(resolve(folder, "favicon.svg"), {
+			density: DENSITY * (size / CANVAS),
 		})
-		.catch((err) => {
-			if (err) console.log("Something went wrong", err);
-		});
-});
+			.toFile(resolve(folder, file))
+		console.info(`${file} - ${bits} bits`);
+	} catch (error) {
+		console.warn("Something went wrong", error);
+	}
+}
