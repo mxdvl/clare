@@ -12,3 +12,4 @@ yarn-error.log
 # Builds
 /__sapper__/
 .svelte-kit
+.vercel
