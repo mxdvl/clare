@@ -3,13 +3,18 @@
 
 # Dependencies
 /node_modules/
-/src/node_modules/@sapper/
+/package
 yarn-error.log
 
 # Sharp
 /static/notebook-*
 
 # Builds
-/__sapper__/
-.svelte-kit
+/build
+/.svelte-kit
+
+# Environment
+.env
+.env.*
+!.env.example
 .vercel
