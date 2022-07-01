@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>CW’s online notebook</title>
+	<title>Clare Welch: User Researcher</title>
 </svelte:head>
 
 <main>

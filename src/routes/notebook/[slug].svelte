@@ -1,18 +1,11 @@
-<script context="module">
-	export function preload({ params }) {
-		return this.fetch(`${params.slug}.json`)
-			.then((r) => r.json())
-			.then((page) => {
-				if (page.error) this.error(404, "Not Found");
-				return { page };
-			});
-	}
-</script>
-
 <script lang="ts">
 	import Contact from "$lib/components/Contact.svelte";
 
-	export let page: Record<string, string>;
+	export let page: {
+		title: string,
+		html: string,
+		slug: string,
+	};
 </script>
 
 <svelte:head>
