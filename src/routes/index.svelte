@@ -27,6 +27,13 @@
 	</li>
 	<li>
 		<a
+			href="https://medium.com/sopra-steria-uk-design-team/why-must-design-teams-consider-the-growing-digital-divide-in-the-uk-50aaddbd672f"
+			>Why must design teams consider the growing digital divide in the UK? |
+			Sopra Steria</a
+		> Feb 2022
+	</li>
+	<li>
+		<a
 			href="https://clarelwelch.medium.com/reviewing-the-user-experience-of-language-learning-in-schools-cafc355edea0"
 			>Reviewing the ‘user experience’ of language learning in schools</a
 		>
