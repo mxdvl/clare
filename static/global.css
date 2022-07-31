@@ -11,11 +11,24 @@
 	-webkit-text-size-adjust: 100%;
 }
 
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #68031b;
+		--text: #faf0f5;
+		--paper: #1f2232;
+		--lines: #2e3141;
+		--accent: #94ae72;
+		--cover: #dda617;
+		--line: 2px;
+	}
+}
+
 body {
 	font-family: "iA Writer Quattro S", "Courier New", Courier, monospace;
 	font-size: 0.8rem;
 	line-height: 1.5;
 	margin: 0;
+	padding: 0.25rem;
 	color: var(--text);
 
 	background: var(--background);
