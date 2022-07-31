@@ -23,7 +23,7 @@
 	<li>
 		<a href="https://uxdesign.cc/using-trello-for-user-research-d767ce0eb37c"
 			>Using Trello for User Research | UX Collective</a
-		>
+		> May 2022
 	</li>
 	<li>
 		<a
@@ -36,7 +36,7 @@
 		<a
 			href="https://clarelwelch.medium.com/reviewing-the-user-experience-of-language-learning-in-schools-cafc355edea0"
 			>Reviewing the ‘user experience’ of language learning in schools</a
-		>
+		> Jul 2021
 	</li>
 </ul>
 
