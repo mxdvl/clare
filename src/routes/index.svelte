@@ -20,6 +20,11 @@
 </h2>
 
 <ul>
+    <li>
+    <a href="https://uxdesign.cc/top-considerations-before-conducting-user-research-2e8c24e9f793"
+			>Top considerations before conducting user research | UX Collective</a
+		> Sep 2022
+    </li>
 	<li>
 		<a href="https://uxdesign.cc/using-trello-for-user-research-d767ce0eb37c"
 			>Using Trello for User Research | UX Collective</a
