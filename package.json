@@ -16,6 +16,7 @@
     "format": "prettier --write --plugin-search-dir=. ."
   },
   "dependencies": {
+    "@fontsource/nunito": "^4.5.10",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "1.0.0-next.357",
     "@types/marked": "^4.0.3",
