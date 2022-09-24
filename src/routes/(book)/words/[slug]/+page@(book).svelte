@@ -1,5 +1,7 @@
 <script lang="ts">
-	import type { Post } from "./index@book";
+	throw new Error("@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)");
+
+	import type { Post } from "../index@book";
 
 	export let post: Post;
 </script>

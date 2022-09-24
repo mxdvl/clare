@@ -6,6 +6,9 @@
 	import Cover from "$lib/components/Cover.svelte";
 	import Nav from "$lib/components/Nav.svelte";
 
+	import "@fontsource/nunito/400.css";
+	import "@fontsource/nunito/600.css";
+
 	$: closed = $page.url.pathname === "/" && $page.error === null;
 
 	let node: HTMLElement;
