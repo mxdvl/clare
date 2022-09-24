@@ -27,14 +27,10 @@ const getPage = (slug: string): Page => {
 	return { html, slug, title: "title", ...data };
 };
 
-export const get: PageServerLoad = async ({ params }) => {
+export const get: PageServerLoad<Page> = async ({ params }) => {
 	const { slug } = params;
 
-	if (!isPage(slug)) return { status: 404 };
+	if (!isPage(slug)) throw new Error("Not found");
 
-	const page = getPage(slug);
-
-	return {
-		page,
-	};
+	return getPage(slug);
 };
