@@ -1,7 +1,11 @@
+throw new Error(
+	"@migration task: Update +page.server.js (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292699)"
+);
+
 import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
-import type { RequestHandler } from ".svelte-kit/types/src/routes/__types/[slug]@book";
+import type { PageServerLoad } from "./$types";
 import grayMatter from "gray-matter";
 import { marked } from "marked";
 
@@ -23,7 +27,7 @@ const getPage = (slug: string): Page => {
 	return { html, slug, title: "title", ...data };
 };
 
-export const get: RequestHandler = async ({ params }) => {
+export const get: PageServerLoad = async ({ params }) => {
 	const { slug } = params;
 
 	if (!isPage(slug)) return { status: 404 };
@@ -31,6 +35,6 @@ export const get: RequestHandler = async ({ params }) => {
 	const page = getPage(slug);
 
 	return {
-		body: { page },
+		page,
 	};
 };
