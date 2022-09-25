@@ -4,27 +4,34 @@
 
 <h1>Nice to meet you. 👋</h1>
 
-<p>
-	I’m <strong>Clare</strong> without an <strong>i</strong>.
-</p>
-
-<p>
-	A User Researcher working on <a
+<p class="bold">
+	User Researcher with expertise in learning and education. Currently on <a
 		href="https://medium.com/sopra-steria-uk-design-team/tagged/user-research"
 		>the Sopra Steria Design Team</a
 	>.
 </p>
+
+<p>
+	Having worked extensively in education and abroad, my experience spans a
+	breadth of cultures and age groups. I bring a wide skill set to the user
+	researcher role. People have always been at the centre of my work. From
+	understanding the way people learn, to working with diverse groups in the UK
+	and abroad, I am a strong advocate of user centred design.
+</p>
+
+<p>Passionate about creating spaces where people feel they belong.</p>
 
 <h2>
 	Read some of <a href="https://clarelwelch.medium.com/">my recent posts</a>:
 </h2>
 
 <ul>
-    <li>
-    <a href="https://uxdesign.cc/top-considerations-before-conducting-user-research-2e8c24e9f793"
+	<li>
+		<a
+			href="https://uxdesign.cc/top-considerations-before-conducting-user-research-2e8c24e9f793"
 			>Top considerations before conducting user research | UX Collective</a
 		> Sep 2022
-    </li>
+	</li>
 	<li>
 		<a href="https://uxdesign.cc/using-trello-for-user-research-d767ce0eb37c"
 			>Using Trello for User Research | UX Collective</a
