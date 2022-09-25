@@ -1,7 +1,3 @@
-throw new Error(
-	"@migration task: Update +page.server.js (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292699)"
-);
-
 import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
@@ -27,10 +23,10 @@ const getPage = (slug: string): Page => {
 	return { html, slug, title: "title", ...data };
 };
 
-export const get: PageServerLoad<Page> = async ({ params }) => {
+export const load: PageServerLoad = async ({ params }) => {
 	const { slug } = params;
 
 	if (!isPage(slug)) throw new Error("Not found");
 
-	return getPage(slug);
+	return { page: getPage(slug) };
 };

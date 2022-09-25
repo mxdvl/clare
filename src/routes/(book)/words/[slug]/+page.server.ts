@@ -1,19 +1,18 @@
-throw new Error("@migration task: Update +page.server.js (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292699)");
-
 import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
 import grayMatter from "gray-matter";
 import { marked } from "marked";
-import type { RequestHandler } from "..svelte-kit/types/src/routes/words/__types/[slug]@book";
-import type { Post } from "../index@book";
 
-export const get: RequestHandler = async ({ params }) => {
+import type { PageServerLoad } from "./$types";
+import type { Post } from "../+page.server";
+
+export const load: PageServerLoad = async ({ params }) => {
 	const { slug } = params;
 
 	const filename = resolve(".", "content", "words", `${slug}.md`);
 
-	if (!existsSync(filename)) return { status: 404 };
+	if (!existsSync(filename)) throw new Error("Not found");
 
 	const md = readFileSync(filename, "utf-8");
 
@@ -30,5 +29,5 @@ export const get: RequestHandler = async ({ params }) => {
 		html,
 	};
 
-	return { body: { post } };
+	return { post };
 };

@@ -20,7 +20,7 @@
 	<hr />
 
 	<blockquote>
-		<p class="bold">{$page.error?.name}</p>
+		<p class="bold">Error</p>
 		<p>{$page.error?.message}</p>
 	</blockquote>
 </main>

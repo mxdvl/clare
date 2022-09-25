@@ -1,11 +1,12 @@
 :root {
-	--background: #68031b;
 	--text: #2e3141;
 	--paper: #fefefe;
-	--lines: #faf0f5;
-	--accent: #6b7c55;
-	--cover: #dda617;
+	--lines: #e7f3fc;
+	--accent: #0b5394;
+	--contrast: #dda617;
 	--line: 2px;
+
+	--background: #092136;
 
 	font-size: 20px;
 	-webkit-text-size-adjust: 100%;
@@ -13,12 +14,10 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--background: #68031b;
 		--text: #faf0f5;
 		--paper: #1f2232;
 		--lines: #2e3141;
-		--accent: #94ae72;
-		--cover: #dda617;
+		--accent: #4f9add;
 		--line: 2px;
 	}
 }
@@ -28,7 +27,7 @@ body {
 	font-size: 0.8rem;
 	line-height: 1.5;
 	margin: 0;
-	padding: 0.25rem;
+	padding: 0;
 	color: var(--text);
 
 	background: var(--background);
@@ -58,12 +57,9 @@ h1 {
 
 a {
 	color: var(--accent);
-	text-decoration: none;
-	background-repeat: no-repeat;
-	background-size: 100% var(--line);
-	background-position-y: 1rem;
-	padding-bottom: 0.5rem;
-	background-image: linear-gradient(var(--accent), var(--accent));
+	text-decoration: underline;
+	text-underline-offset: 0.25rem;
+	text-decoration-thickness: 2px;
 }
 
 p {

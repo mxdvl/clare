@@ -4,7 +4,7 @@
 
 <style>
 	.cover {
-		background-color: var(--cover);
+		background-color: var(--contrast);
 		border: var(--line) solid var(--text);
 		border-top-right-radius: 2rem;
 		border-bottom-right-radius: 2rem;
@@ -34,7 +34,7 @@
 		font-weight: 900;
 		text-align: center;
 
-		color: var(--cover);
+		color: var(--contrast);
 		opacity: 0.75;
 		text-shadow: -2px -4px 0 var(--text), 2px 4px 0 gold;
 		-webkit-text-stroke: #0036 1px;
