@@ -1,4 +1,4 @@
-import { existsSync, readFileSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
 import type { PageServerLoad } from "./$types";
@@ -13,8 +13,6 @@ export type Page = {
 
 const path = resolve(".", "content");
 
-const isPage = (slug: string) => existsSync(resolve(path, `${slug}.md`));
-
 const getPage = (slug: string): Page => {
 	const md = readFileSync(resolve(path, `${slug}.md`), "utf-8");
 	const { content, data } = grayMatter(md);
@@ -23,10 +21,4 @@ const getPage = (slug: string): Page => {
 	return { html, slug, title: "title", ...data };
 };
 
-export const load: PageServerLoad = async ({ params }) => {
-	const { slug } = params;
-
-	if (!isPage(slug)) throw new Error("Not found");
-
-	return { page: getPage(slug) };
-};
+export const load: PageServerLoad = () => ({ page: getPage("about") });

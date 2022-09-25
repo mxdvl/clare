@@ -1,31 +1,10 @@
 <script lang="ts">
-	import { page } from "$app/stores";
-
 	import "@fontsource/nunito/400.css";
 	import "@fontsource/nunito/600.css";
 </script>
 
-<svelte:head>
-	<title>Error</title>
-</svelte:head>
-
 <main>
-	<h1>Whoops!</h1>
-
-	<p>Sorry, there is no such page.</p>
-	<hr />
-	<p>
-		Try looking somewhere else, as it looks like the following page could not be
-		found:
-		<strong>clare.ink{$page.url.pathname}</strong>
-	</p>
-
-	<hr />
-
-	<blockquote>
-		<p class="bold">{$page.status}</p>
-		<p>{$page.error?.message}</p>
-	</blockquote>
+	<slot />
 </main>
 
 <style>
@@ -58,13 +37,5 @@
 		box-shadow: 4px 4px 0 -2px var(--paper), 4px 4px 0 var(--text),
 			-4px 8px 0 -2px var(--paper), -4px 8px 0 var(--text),
 			0 12px 0 -2px var(--paper), 0 12px 0 var(--text);
-	}
-
-	blockquote {
-		color: var(--accent);
-	}
-
-	.bold {
-		font-weight: bold;
 	}
 </style>
