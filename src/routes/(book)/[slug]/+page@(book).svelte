@@ -1,11 +1,10 @@
 <script lang="ts">
-	throw new Error(
-		"@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)"
-	);
-
+	import type { PageData } from "./$types";
 	import type { Page } from "./+page.server";
 
-	export let page: Page;
+	export let data: PageData;
+	let { page } = data;
+	$: ({ page } = data);
 </script>
 
 <svelte:head>
