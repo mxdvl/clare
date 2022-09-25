@@ -1,10 +1,8 @@
-throw new Error("@migration task: Update +page.server.js (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292699)");
-
 import { resolve } from "node:path";
 import { readdirSync, readFileSync } from "node:fs";
 
 import grayMatter from "gray-matter";
-import type { RequestHandler } from ".svelte-kit/types/src/routes/words/__types/index@book";
+import type { PageServerLoad } from "./$types";
 
 export type Post = {
 	title: string;
@@ -37,12 +35,12 @@ const getAllPosts = (): Post[] =>
 				new Date(second.date).getTime() - new Date(first.date).getTime()
 		);
 
-export const get: RequestHandler = async () => {
+export const load: PageServerLoad = async () => {
 	const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 3"><circle cx="2" cy="2" r="1"/></svg>`;
 
 	const posts = getAllPosts();
 
-	if (posts.length) return { body: { posts } };
+	if (!posts.length) throw new Error("No posts found.");
 
-	return { status: 404 };
+	return { posts };
 };

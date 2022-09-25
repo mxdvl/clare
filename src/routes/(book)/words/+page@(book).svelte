@@ -1,12 +1,12 @@
 <script type="ts">
-	throw new Error("@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)");
-
-	import type { Post } from "./index@book";
+	import type { PageData } from "./$types";
 
 	const formatted = (date: Date): `${string}.${string}` =>
 		`${date.getUTCMonth() + 1}.${date.getUTCFullYear()}`;
 
-	export let posts: Post[];
+	export let data: PageData;
+	let { posts } = data;
+	$: ({ posts } = data);
 </script>
 
 <svelte:head>

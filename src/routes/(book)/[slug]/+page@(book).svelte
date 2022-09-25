@@ -1,6 +1,5 @@
 <script lang="ts">
 	import type { PageData } from "./$types";
-	import type { Page } from "./+page.server";
 
 	export let data: PageData;
 	let { page } = data;

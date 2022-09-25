@@ -26,8 +26,6 @@ const getPage = (slug: string): Page => {
 export const load: PageServerLoad = async ({ params }) => {
 	const { slug } = params;
 
-	console.log("isPage", isPage(slug), { params });
-
 	if (!isPage(slug)) throw new Error("Not found");
 
 	return { page: getPage(slug) };

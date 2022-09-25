@@ -4,7 +4,7 @@
 
 <style>
 	.cover {
-		background-color: var(--cover);
+		background-color: var(--contrast);
 		border: var(--line) solid var(--text);
 		border-top-right-radius: 2rem;
 		border-bottom-right-radius: 2rem;
