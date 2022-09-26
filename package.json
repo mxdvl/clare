@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "pnpm build:icons && vite build",
+    "build": "pnpm build:icons && vite build && pnpm build:md",
     "build:icons": "node src/sharp.js",
+    "build:md": "cp 'src/routes/(book)/words/'*.md '.svelte-kit/output/server/entries/pages/(book)/words/'",
     "package": "vite package",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",

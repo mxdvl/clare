@@ -12,7 +12,7 @@ export type Post = {
 	html?: string;
 };
 
-const path = resolve(fileURLToPath(import.meta.url), "..", "[slug]");
+const path = resolve(fileURLToPath(import.meta.url), "..");
 
 const getAllPosts = (): Post[] =>
 	readdirSync(path)
@@ -41,8 +41,6 @@ export const load: PageServerLoad = async () => {
 	const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 3"><circle cx="2" cy="2" r="1"/></svg>`;
 
 	const posts = getAllPosts();
-
-	console.log(posts);
 
 	if (!posts.length) throw new Error("No posts found.");
 

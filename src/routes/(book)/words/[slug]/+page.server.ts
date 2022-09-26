@@ -11,7 +11,12 @@ import type { Post } from "../+page.server";
 export const load: PageServerLoad = async ({ params }) => {
 	const { slug } = params;
 
-	const filename = resolve(fileURLToPath(import.meta.url), "..", `${slug}.md`);
+	const filename = resolve(
+		fileURLToPath(import.meta.url),
+		"..",
+		"..",
+		`${slug}.md`
+	);
 
 	const md = readFileSync(filename, "utf-8");
 
