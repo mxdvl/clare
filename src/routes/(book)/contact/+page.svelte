@@ -30,9 +30,8 @@
 <h1>Get in touch</h1>
 
 <p>
-	Say<a href="mailto:hey@clare.ink">hey@clare.ink</a>
+	Say <a href="mailto:hey@clare.ink">hey@clare.ink</a>, or use the form below 👇
 </p>
-<p>Or 👇</p>
 
 {#if submitted}
 	<br />
@@ -66,6 +65,8 @@
 		margin: 0;
 		padding: 0;
 		padding: 1rem;
+		position: relative;
+		top: -3px;
 	}
 
 	input {
@@ -74,10 +75,11 @@
 
 	textarea {
 		height: 18rem;
+		font-size: 0.8rem;
 	}
 
 	button {
-		background: var(--accent);
+		background: var(--contrast);
 		border: var(--line) solid var(--text);
 		padding: 0.5rem 1rem;
 		font-family: inherit;

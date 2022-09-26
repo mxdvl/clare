@@ -53,8 +53,7 @@
 		position: relative;
 		display: inline-block;
 		z-index: 1;
-		/* color: var(--paper); */
-		background-color: var(--accent);
+		background-color: var(--contrast);
 	}
 
 	a {

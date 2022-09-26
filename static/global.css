@@ -58,8 +58,8 @@ h1 {
 a {
 	color: var(--accent);
 	text-decoration: underline;
-	text-underline-offset: 0.125rem;
-	text-decoration-thickness: 2px;
+	text-underline-offset: 0.0625rem;
+	text-decoration-thickness: var(--line);
 }
 
 p {
@@ -69,6 +69,22 @@ p {
 
 p:last-child {
 	padding-bottom: 0;
+}
+
+main {
+	background-image: repeating-linear-gradient(
+		var(--lines),
+		var(--lines) var(--line),
+		var(--paper) var(--line),
+		var(--paper) calc(1rem)
+	);
+	background-repeat: no-repeat;
+	background-position: 1rem 6.8125rem;
+	background-size: calc(100% - 2rem);
+
+	box-shadow: 4px 4px 0 -2px var(--paper), 4px 4px 0 var(--text),
+		-4px 8px 0 -2px var(--paper), -4px 8px 0 var(--text),
+		0 12px 0 -2px var(--paper), 0 12px 0 var(--text);
 }
 
 main img,
@@ -90,6 +106,8 @@ blockquote {
 	background-color: var(--lines);
 	margin: 0;
 	padding: 1rem;
+	position: relative;
+	top: -3px;
 }
 
 hr {
