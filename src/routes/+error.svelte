@@ -44,20 +44,6 @@
 		line-height: 1rem;
 
 		font-size: 0.8rem;
-
-		background-image: repeating-linear-gradient(
-			var(--lines),
-			var(--lines) var(--line),
-			var(--paper) var(--line),
-			var(--paper) calc(1rem)
-		);
-		background-repeat: no-repeat;
-		background-position: 1rem 6.875rem;
-		background-size: calc(100% - 2rem);
-
-		box-shadow: 4px 4px 0 -2px var(--paper), 4px 4px 0 var(--text),
-			-4px 8px 0 -2px var(--paper), -4px 8px 0 var(--text),
-			0 12px 0 -2px var(--paper), 0 12px 0 var(--text);
 	}
 
 	blockquote {

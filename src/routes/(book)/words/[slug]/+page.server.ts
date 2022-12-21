@@ -1,5 +1,6 @@
-import { existsSync, readFileSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 
 import grayMatter from "gray-matter";
 import { marked } from "marked";
@@ -10,9 +11,12 @@ import type { Post } from "../+page.server";
 export const load: PageServerLoad = async ({ params }) => {
 	const { slug } = params;
 
-	const filename = resolve(".", "content", "words", `${slug}.md`);
-
-	if (!existsSync(filename)) throw new Error("Not found");
+	const filename = resolve(
+		fileURLToPath(import.meta.url),
+		"..",
+		"..",
+		`${slug}.md`
+	);
 
 	const md = readFileSync(filename, "utf-8");
 

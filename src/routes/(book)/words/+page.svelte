@@ -1,5 +1,5 @@
 <script type="ts">
-	import type { PageData } from "../../../../.svelte-kit/types/src/routes/(book)/words/$types/../.svelte-kit/types/src/routes/(book)/words/$types";
+	import type { PageData } from "./$types";
 
 	const formatted = (date: Date): `${string}.${string}` =>
 		`${date.getUTCMonth() + 1}.${date.getUTCFullYear()}`;
