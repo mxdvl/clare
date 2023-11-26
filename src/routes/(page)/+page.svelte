@@ -5,9 +5,9 @@
 <h1>Nice to meet you. 👋</h1>
 
 <p class="bold">
-	User Researcher with expertise in learning and education. Currently on <a
-		href="https://medium.com/sopra-steria-uk-design-team/tagged/user-research"
-		>the Sopra Steria Design Team</a
+	Senior User Researcher Consultant working at <a
+		href="https://opencastsoftware.com/"
+		>Opencast</a
 	>.
 </p>
 
@@ -26,6 +26,12 @@
 </h2>
 
 <ul>
+	<li>
+		<a
+			href="https://opencastsoftware.com/insights/blog/2023/october/why-we-must-all-mind-the-digital-exclusion-gap/"
+			>Why we must all mind the digital exclusion gap</a
+		> Oct 2023
+	</li>
 	<li>
 		<a
 			href="https://uxdesign.cc/top-considerations-before-conducting-user-research-2e8c24e9f793"
