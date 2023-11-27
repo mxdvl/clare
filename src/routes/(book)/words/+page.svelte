@@ -1,11 +1,8 @@
-<script type="ts">
-	import type { PageData } from "./$types";
-
+<script lang="ts">
 	const formatted = (date: Date): `${string}.${string}` =>
 		`${date.getUTCMonth() + 1}.${date.getUTCFullYear()}`;
 
-	export let data: PageData;
-	let { posts } = data;
+	export let data;
 	$: ({ posts } = data);
 </script>
 
