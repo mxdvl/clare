@@ -21,7 +21,7 @@
     "@sveltejs/kit": "1.27.6",
     "@types/marked": "4.3.2",
     "@types/node": "20.10.0",
-    "@types/sharp": "^0.30.5",
+    "@types/sharp": "^0.31.0",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "eslint": "8.54.0",

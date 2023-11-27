@@ -21,8 +21,8 @@ dependencies:
     specifier: 20.10.0
     version: 20.10.0
   '@types/sharp':
-    specifier: ^0.30.5
-    version: 0.30.5
+    specifier: ^0.31.0
+    version: 0.31.1
   '@typescript-eslint/eslint-plugin':
     specifier: ^5.62.0
     version: 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.54.0)(typescript@5.3.2)
@@ -516,8 +516,8 @@ packages:
     resolution: {integrity: sha512-dn1l8LaMea/IjDoHNd9J52uBbInB796CDffS6VdIxvqYCPSG0V0DzHp76GpaWnlhg88uYyPbXCDIowa86ybd5A==}
     dev: false
 
-  /@types/sharp@0.30.5:
-    resolution: {integrity: sha512-EhO29617AIBqxoVtpd1qdBanWpspk/kD2B6qTFRJ31Q23Rdf+DNU1xlHSwtqvwq1vgOqBwq1i38SX+HGCymIQg==}
+  /@types/sharp@0.31.1:
+    resolution: {integrity: sha512-5nWwamN9ZFHXaYEincMSuza8nNfOof8nmO+mcI+Agx1uMUk4/pQnNIcix+9rLPXzKrm1pS34+6WRDbDV0Jn7ag==}
     dependencies:
       '@types/node': 20.10.0
     dev: false
