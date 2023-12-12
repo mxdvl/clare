@@ -18,7 +18,7 @@
   "dependencies": {
     "@fontsource/nunito": "5.0.16",
     "@sveltejs/adapter-auto": "2.1.1",
-    "@sveltejs/kit": "1.27.7",
+    "@sveltejs/kit": "1.29.1",
     "@types/marked": "4.3.2",
     "@types/node": "20.10.0",
     "@types/sharp": "^0.31.0",
