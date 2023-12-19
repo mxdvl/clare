@@ -15,8 +15,8 @@ dependencies:
     specifier: 1.30.3
     version: 1.30.3(svelte@4.2.8)(vite@4.5.1)
   '@types/marked':
-    specifier: 4.3.2
-    version: 4.3.2
+    specifier: 5.0.2
+    version: 5.0.2
   '@types/node':
     specifier: 20.10.0
     version: 20.10.0
@@ -694,8 +694,8 @@ packages:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: false
 
-  /@types/marked@4.3.2:
-    resolution: {integrity: sha512-a79Yc3TOk6dGdituy8hmTTJXjOkZ7zsFYV10L337ttq/rec8lRMDBpV7fL3uLx6TgbFCa5DU/h8FmIBQPSbU0w==}
+  /@types/marked@5.0.2:
+    resolution: {integrity: sha512-OucS4KMHhFzhz27KxmWg7J+kIYqyqoW5kdIEI319hqARQQUTqhao3M/F+uFnDXD0Rg72iDDZxZNxq5gvctmLlg==}
     dev: false
 
   /@types/node@20.10.0:
