@@ -29,7 +29,7 @@
     "eslint-plugin-svelte": "2.35.1",
     "gray-matter": "4.0.3",
     "marked": "11.1.1",
-    "prettier": "3.1.1",
+    "prettier": "3.2.2",
     "prettier-plugin-svelte": "3.1.2",
     "sharp": "0.33.2",
     "svelte": "4.2.8",
