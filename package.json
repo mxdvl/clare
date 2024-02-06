@@ -32,7 +32,7 @@
     "prettier": "3.2.5",
     "prettier-plugin-svelte": "3.1.2",
     "sharp": "0.33.2",
-    "svelte": "4.2.9",
+    "svelte": "4.2.10",
     "svelte-actions-resize": "^0.1.1",
     "svelte-check": "3.6.3",
     "svelte-preprocess": "5.1.3",
