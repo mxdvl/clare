@@ -34,7 +34,7 @@
     "sharp": "0.33.2",
     "svelte": "4.2.10",
     "svelte-actions-resize": "^0.1.1",
-    "svelte-check": "3.6.3",
+    "svelte-check": "3.6.4",
     "svelte-preprocess": "5.1.3",
     "tslib": "2.6.2",
     "typescript": "5.3.3",
