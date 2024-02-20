@@ -14,6 +14,9 @@ dependencies:
   '@sveltejs/kit':
     specifier: 2.5.0
     version: 2.5.0(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@4.2.10)(vite@5.1.1)
+  '@sveltejs/vite-plugin-svelte':
+    specifier: 3.0.2
+    version: 3.0.2(svelte@4.2.10)(vite@5.1.1)
   '@types/marked':
     specifier: 5.0.2
     version: 5.0.2
@@ -21,13 +24,13 @@ dependencies:
     specifier: 20.11.19
     version: 20.11.19
   '@types/sharp':
-    specifier: ^0.31.0
+    specifier: 0.31.1
     version: 0.31.1
   '@typescript-eslint/eslint-plugin':
-    specifier: ^6.0.0
+    specifier: 6.15.0
     version: 6.15.0(@typescript-eslint/parser@6.15.0)(eslint@8.56.0)(typescript@5.3.3)
   '@typescript-eslint/parser':
-    specifier: ^6.0.0
+    specifier: 6.15.0
     version: 6.15.0(eslint@8.56.0)(typescript@5.3.3)
   eslint:
     specifier: 8.56.0
@@ -57,7 +60,7 @@ dependencies:
     specifier: 4.2.10
     version: 4.2.10
   svelte-actions-resize:
-    specifier: ^0.1.1
+    specifier: 0.1.1
     version: 0.1.1
   svelte-check:
     specifier: 3.6.4
