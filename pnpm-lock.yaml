@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@fontsource/nunito':
-    specifier: 5.0.16
-    version: 5.0.16
+    specifier: 5.0.17
+    version: 5.0.17
   '@sveltejs/adapter-auto':
     specifier: 3.1.1
     version: 3.1.1(@sveltejs/kit@2.5.2)
@@ -345,8 +345,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: false
 
-  /@fontsource/nunito@5.0.16:
-    resolution: {integrity: sha512-55Au63Sm2ux/Aef4JenA8HJKEH1mpEMvZCYR7f4pnlOQ9linVwa1/dzPh2GDnt2H5uUK7hK2JmPCyskrldm8+w==}
+  /@fontsource/nunito@5.0.17:
+    resolution: {integrity: sha512-1O8tFQImUR66MUZ8UGHmN1dveFzLXJhrGKBH7us2zXYe6juk0fPcV0uVvJEIyW8BsevEZMuExZhpGFiTy/g61Q==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:
