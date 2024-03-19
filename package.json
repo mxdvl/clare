@@ -44,6 +44,6 @@
   "engines": {
     "node": "20.11.1"
   },
-  "packageManager": "pnpm@8.15.4",
+  "packageManager": "pnpm@8.15.5",
   "prettier": {}
 }
