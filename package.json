@@ -19,7 +19,7 @@
     "@fontsource/nunito": "5.0.18",
     "@sveltejs/adapter-auto": "3.2.1",
     "@sveltejs/kit": "2.5.10",
-    "@sveltejs/vite-plugin-svelte": "3.1.0",
+    "@sveltejs/vite-plugin-svelte": "3.1.1",
     "@types/marked": "6.0.0",
     "@types/node": "20.12.12",
     "@types/sharp": "^0.32.0",
