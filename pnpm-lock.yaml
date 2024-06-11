@@ -39,8 +39,8 @@ dependencies:
     specifier: 9.1.0
     version: 9.1.0(eslint@9.3.0)
   eslint-plugin-svelte:
-    specifier: 2.39.0
-    version: 2.39.0(eslint@9.3.0)(svelte@4.2.17)
+    specifier: 2.39.3
+    version: 2.39.3(eslint@9.3.0)(svelte@4.2.17)
   gray-matter:
     specifier: 4.0.3
     version: 4.0.3
@@ -1249,7 +1249,7 @@ packages:
       eslint: '>=6.0.0'
     dependencies:
       eslint: 9.3.0
-      semver: 7.6.0
+      semver: 7.6.2
     dev: false
 
   /eslint-config-prettier@9.1.0(eslint@9.3.0):
@@ -1261,8 +1261,8 @@ packages:
       eslint: 9.3.0
     dev: false
 
-  /eslint-plugin-svelte@2.39.0(eslint@9.3.0)(svelte@4.2.17):
-    resolution: {integrity: sha512-FXktBLXsrxbA+6ZvJK2z/sQOrUKyzSg3fNWK5h0reSCjr2fjAsc9ai/s/JvSl4Hgvz3nYVtTIMwarZH5RcB7BA==}
+  /eslint-plugin-svelte@2.39.3(eslint@9.3.0)(svelte@4.2.17):
+    resolution: {integrity: sha512-uXsHW+VOSHRI3VgoDit4CURKos9wDque6CuaBNw8z6UyF5Rfc2XHmNEsRvvOd+VmMUtS+wC9bvwArv2tt4TFGA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0 || ^9.0.0-0
@@ -1273,7 +1273,6 @@ packages:
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.3.0)
       '@jridgewell/sourcemap-codec': 1.4.15
-      debug: 4.3.4
       eslint: 9.3.0
       eslint-compat-utils: 0.5.0(eslint@9.3.0)
       esutils: 2.0.3
@@ -1282,11 +1281,10 @@ packages:
       postcss-load-config: 3.1.4(postcss@8.4.38)
       postcss-safe-parser: 6.0.0(postcss@8.4.38)
       postcss-selector-parser: 6.0.16
-      semver: 7.6.0
+      semver: 7.6.2
       svelte: 4.2.17
-      svelte-eslint-parser: 0.36.0(svelte@4.2.17)
+      svelte-eslint-parser: 0.37.0(svelte@4.2.17)
     transitivePeerDependencies:
-      - supports-color
       - ts-node
     dev: false
 
@@ -2072,6 +2070,12 @@ packages:
       lru-cache: 6.0.0
     dev: false
 
+  /semver@7.6.2:
+    resolution: {integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dev: false
+
   /set-cookie-parser@2.6.0:
     resolution: {integrity: sha512-RVnVQxTXuerk653XfuliOxBP81Sf0+qfQE73LIYKcyMYHG94AuH0kgrQpRDuTZnSmjpysHmzxJXKNfa6PjFhyQ==}
     dev: false
@@ -2221,8 +2225,8 @@ packages:
       - sugarss
     dev: false
 
-  /svelte-eslint-parser@0.36.0(svelte@4.2.17):
-    resolution: {integrity: sha512-/6YmUSr0FAVxW8dXNdIMydBnddPMHzaHirAZ7RrT21XYdgGGZMh0LQG6CZsvAFS4r2Y4ItUuCQc8TQ3urB30mQ==}
+  /svelte-eslint-parser@0.37.0(svelte@4.2.17):
+    resolution: {integrity: sha512-AXd5ar7dcOK+H86JomxcSaWevhs2J7o/xOwg+kDQu98uuATpm+tE5Twp7u8UQCdbWKB34Idu/CZyHmTOxfSQMw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       svelte: ^3.37.0 || ^4.0.0 || ^5.0.0-next.115
