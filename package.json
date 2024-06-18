@@ -18,7 +18,7 @@
   "dependencies": {
     "@fontsource/nunito": "5.0.18",
     "@sveltejs/adapter-auto": "3.2.2",
-    "@sveltejs/kit": "2.5.10",
+    "@sveltejs/kit": "2.5.16",
     "@sveltejs/vite-plugin-svelte": "3.1.1",
     "@types/marked": "6.0.0",
     "@types/node": "20.14.2",
