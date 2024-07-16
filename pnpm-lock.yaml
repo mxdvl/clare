@@ -39,8 +39,8 @@ dependencies:
     specifier: 9.1.0
     version: 9.1.0(eslint@9.7.0)
   eslint-plugin-svelte:
-    specifier: 2.41.0
-    version: 2.41.0(eslint@9.7.0)(svelte@4.2.18)
+    specifier: 2.42.0
+    version: 2.42.0(eslint@9.7.0)(svelte@4.2.18)
   gray-matter:
     specifier: 4.0.3
     version: 4.0.3
@@ -64,10 +64,10 @@ dependencies:
     version: 0.1.1
   svelte-check:
     specifier: 3.8.4
-    version: 3.8.4(postcss@8.4.38)(svelte@4.2.18)
+    version: 3.8.4(postcss@8.4.39)(svelte@4.2.18)
   svelte-preprocess:
     specifier: 5.1.4
-    version: 5.1.4(postcss@8.4.38)(svelte@4.2.18)(typescript@5.5.3)
+    version: 5.1.4(postcss@8.4.39)(svelte@4.2.18)(typescript@5.5.3)
   tslib:
     specifier: 2.6.3
     version: 2.6.3
@@ -1273,12 +1273,12 @@ packages:
       eslint: 9.7.0
     dev: false
 
-  /eslint-plugin-svelte@2.41.0(eslint@9.7.0)(svelte@4.2.18):
-    resolution: {integrity: sha512-gjU9Q/psxbWG1VNwYbEb0Q6U4W5PBGaDpYmO2zlQ+zlAMVS3Qt0luAK0ACi/tMSwRK6JENiySvMyJbO0YWmXSg==}
+  /eslint-plugin-svelte@2.42.0(eslint@9.7.0)(svelte@4.2.18):
+    resolution: {integrity: sha512-mHP6z0DWq97KZvoQcApZHdF9m9epcDV/ICKufeEH18Vh+8vl7S+gwt8WdUohEqKNVMuXRkbvy1suMcVvUDiOGw==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0 || ^9.0.0-0
-      svelte: ^3.37.0 || ^4.0.0 || ^5.0.0-next.155
+      svelte: ^3.37.0 || ^4.0.0 || ^5.0.0-next.181
     peerDependenciesMeta:
       svelte:
         optional: true
@@ -1289,13 +1289,13 @@ packages:
       eslint-compat-utils: 0.5.1(eslint@9.7.0)
       esutils: 2.0.3
       known-css-properties: 0.34.0
-      postcss: 8.4.38
-      postcss-load-config: 3.1.4(postcss@8.4.38)
-      postcss-safe-parser: 6.0.0(postcss@8.4.38)
+      postcss: 8.4.39
+      postcss-load-config: 3.1.4(postcss@8.4.39)
+      postcss-safe-parser: 6.0.0(postcss@8.4.39)
       postcss-selector-parser: 6.1.0
       semver: 7.6.2
       svelte: 4.2.18
-      svelte-eslint-parser: 0.39.2(svelte@4.2.18)
+      svelte-eslint-parser: 0.40.0(svelte@4.2.18)
     transitivePeerDependencies:
       - ts-node
     dev: false
@@ -1919,7 +1919,7 @@ packages:
     engines: {node: '>=8.6'}
     dev: false
 
-  /postcss-load-config@3.1.4(postcss@8.4.38):
+  /postcss-load-config@3.1.4(postcss@8.4.39):
     resolution: {integrity: sha512-6DiM4E7v4coTE4uzA8U//WhtPwyhiim3eyjEMFCnUpzbrkK9wJHgKDT2mR+HbtSrd/NubVaYTOpSpjUl8NQeRg==}
     engines: {node: '>= 10'}
     peerDependencies:
@@ -1932,26 +1932,26 @@ packages:
         optional: true
     dependencies:
       lilconfig: 2.1.0
-      postcss: 8.4.38
+      postcss: 8.4.39
       yaml: 1.10.2
     dev: false
 
-  /postcss-safe-parser@6.0.0(postcss@8.4.38):
+  /postcss-safe-parser@6.0.0(postcss@8.4.39):
     resolution: {integrity: sha512-FARHN8pwH+WiS2OPCxJI8FuRJpTVnn6ZNFiqAM2aeW2LwTHWWmWgIyKC6cUo0L8aeKiF/14MNvnpls6R2PBeMQ==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.3.3
     dependencies:
-      postcss: 8.4.38
+      postcss: 8.4.39
     dev: false
 
-  /postcss-scss@4.0.9(postcss@8.4.38):
+  /postcss-scss@4.0.9(postcss@8.4.39):
     resolution: {integrity: sha512-AjKOeiwAitL/MXxQW2DliT28EKukvvbEWx3LBmJIRN8KfBGZbRTxNYW0kSqi1COiTZ57nZ9NW06S6ux//N1c9A==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.4.29
     dependencies:
-      postcss: 8.4.38
+      postcss: 8.4.39
     dev: false
 
   /postcss-selector-parser@6.1.0:
@@ -1960,15 +1960,6 @@ packages:
     dependencies:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
-    dev: false
-
-  /postcss@8.4.38:
-    resolution: {integrity: sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.7
-      picocolors: 1.0.0
-      source-map-js: 1.2.0
     dev: false
 
   /postcss@8.4.39:
@@ -2223,7 +2214,7 @@ packages:
       '@juggle/resize-observer': 3.4.0
     dev: false
 
-  /svelte-check@3.8.4(postcss@8.4.38)(svelte@4.2.18):
+  /svelte-check@3.8.4(postcss@8.4.39)(svelte@4.2.18):
     resolution: {integrity: sha512-61aHMkdinWyH8BkkTX9jPLYxYzaAAz/FK/VQqdr2FiCQQ/q04WCwDlpGbHff1GdrMYTmW8chlTFvRWL9k0A8vg==}
     hasBin: true
     peerDependencies:
@@ -2234,7 +2225,7 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 4.2.18
-      svelte-preprocess: 5.1.4(postcss@8.4.38)(svelte@4.2.18)(typescript@5.5.3)
+      svelte-preprocess: 5.1.4(postcss@8.4.39)(svelte@4.2.18)(typescript@5.5.3)
       typescript: 5.5.3
     transitivePeerDependencies:
       - '@babel/core'
@@ -2248,11 +2239,11 @@ packages:
       - sugarss
     dev: false
 
-  /svelte-eslint-parser@0.39.2(svelte@4.2.18):
-    resolution: {integrity: sha512-87UwLuWTtDIuzWOhOi1zBL5wYVd07M5BK1qZ57YmXJB5/UmjUNJqGy3XSOhPqjckY1dATNV9y+mx+nI0WH6HPA==}
+  /svelte-eslint-parser@0.40.0(svelte@4.2.18):
+    resolution: {integrity: sha512-M+v1HhC5T1WKYVxWexUCS4o6oIBS88XKzOZuhl2ew+eGxol7eC21e+VE8TC4rXJ3iT3iXT0qlZsZcpKjVo5/zQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
-      svelte: ^3.37.0 || ^4.0.0 || ^5.0.0-next.115
+      svelte: ^3.37.0 || ^4.0.0 || ^5.0.0-next.181
     peerDependenciesMeta:
       svelte:
         optional: true
@@ -2260,8 +2251,8 @@ packages:
       eslint-scope: 7.2.2
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
-      postcss: 8.4.38
-      postcss-scss: 4.0.9(postcss@8.4.38)
+      postcss: 8.4.39
+      postcss-scss: 4.0.9(postcss@8.4.39)
       svelte: 4.2.18
     dev: false
 
@@ -2274,7 +2265,7 @@ packages:
       svelte: 4.2.18
     dev: false
 
-  /svelte-preprocess@5.1.4(postcss@8.4.38)(svelte@4.2.18)(typescript@5.5.3):
+  /svelte-preprocess@5.1.4(postcss@8.4.39)(svelte@4.2.18)(typescript@5.5.3):
     resolution: {integrity: sha512-IvnbQ6D6Ao3Gg6ftiM5tdbR6aAETwjhHV+UKGf5bHGYR69RQvF1ho0JKPcbUON4vy4R7zom13jPjgdOWCQ5hDA==}
     engines: {node: '>= 16.0.0'}
     requiresBuild: true
@@ -2315,7 +2306,7 @@ packages:
       '@types/pug': 2.0.10
       detect-indent: 6.1.0
       magic-string: 0.30.9
-      postcss: 8.4.38
+      postcss: 8.4.39
       sorcery: 0.11.0
       strip-indent: 3.0.0
       svelte: 4.2.18
