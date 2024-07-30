@@ -63,8 +63,8 @@ dependencies:
     specifier: 0.1.1
     version: 0.1.1
   svelte-check:
-    specifier: 3.8.4
-    version: 3.8.4(postcss@8.4.39)(svelte@4.2.18)
+    specifier: 3.8.5
+    version: 3.8.5(postcss@8.4.39)(svelte@4.2.18)
   svelte-preprocess:
     specifier: 5.1.4
     version: 5.1.4(postcss@8.4.39)(svelte@4.2.18)(typescript@5.5.4)
@@ -1901,10 +1901,6 @@ packages:
       is-reference: 3.0.2
     dev: false
 
-  /picocolors@1.0.0:
-    resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
-    dev: false
-
   /picocolors@1.0.1:
     resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
     dev: false
@@ -2209,15 +2205,15 @@ packages:
       '@juggle/resize-observer': 3.4.0
     dev: false
 
-  /svelte-check@3.8.4(postcss@8.4.39)(svelte@4.2.18):
-    resolution: {integrity: sha512-61aHMkdinWyH8BkkTX9jPLYxYzaAAz/FK/VQqdr2FiCQQ/q04WCwDlpGbHff1GdrMYTmW8chlTFvRWL9k0A8vg==}
+  /svelte-check@3.8.5(postcss@8.4.39)(svelte@4.2.18):
+    resolution: {integrity: sha512-3OGGgr9+bJ/+1nbPgsvulkLC48xBsqsgtc8Wam281H4G9F5v3mYGa2bHRsPuwHC5brKl4AxJH95QF73kmfihGQ==}
     hasBin: true
     peerDependencies:
       svelte: ^3.55.0 || ^4.0.0-next.0 || ^4.0.0 || ^5.0.0-next.0
     dependencies:
       '@jridgewell/trace-mapping': 0.3.20
       chokidar: 3.5.3
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       sade: 1.8.1
       svelte: 4.2.18
       svelte-preprocess: 5.1.4(postcss@8.4.39)(svelte@4.2.18)(typescript@5.5.4)
