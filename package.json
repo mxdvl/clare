@@ -16,7 +16,7 @@
     "format": "prettier --write --plugin-search-dir=. ."
   },
   "dependencies": {
-    "@fontsource/nunito": "5.0.19",
+    "@fontsource/nunito": "5.0.20",
     "@sveltejs/adapter-auto": "3.2.4",
     "@sveltejs/kit": "2.5.25",
     "@sveltejs/vite-plugin-svelte": "3.1.2",
