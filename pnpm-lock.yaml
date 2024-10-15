@@ -10,10 +10,10 @@ dependencies:
     version: 5.1.0
   '@sveltejs/adapter-auto':
     specifier: 3.2.5
-    version: 3.2.5(@sveltejs/kit@2.6.3)
+    version: 3.2.5(@sveltejs/kit@2.7.1)
   '@sveltejs/kit':
-    specifier: 2.6.3
-    version: 2.6.3(@sveltejs/vite-plugin-svelte@3.1.2)(svelte@4.2.19)(vite@5.4.9)
+    specifier: 2.7.1
+    version: 2.7.1(@sveltejs/vite-plugin-svelte@3.1.2)(svelte@4.2.19)(vite@5.4.9)
   '@sveltejs/vite-plugin-svelte':
     specifier: 3.1.2
     version: 3.1.2(svelte@4.2.19)(vite@5.4.9)
@@ -767,17 +767,17 @@ packages:
     dev: false
     optional: true
 
-  /@sveltejs/adapter-auto@3.2.5(@sveltejs/kit@2.6.3):
+  /@sveltejs/adapter-auto@3.2.5(@sveltejs/kit@2.7.1):
     resolution: {integrity: sha512-27LR+uKccZ62lgq4N/hvyU2G+hTP9fxWEAfnZcl70HnyfAjMSsGk1z/SjAPXNCD1mVJIE7IFu3TQ8cQ/UH3c0A==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
     dependencies:
-      '@sveltejs/kit': 2.6.3(@sveltejs/vite-plugin-svelte@3.1.2)(svelte@4.2.19)(vite@5.4.9)
+      '@sveltejs/kit': 2.7.1(@sveltejs/vite-plugin-svelte@3.1.2)(svelte@4.2.19)(vite@5.4.9)
       import-meta-resolve: 4.1.0
     dev: false
 
-  /@sveltejs/kit@2.6.3(@sveltejs/vite-plugin-svelte@3.1.2)(svelte@4.2.19)(vite@5.4.9):
-    resolution: {integrity: sha512-baIAnmfMqAISrPtTC/22w6ay5kTEIQ/vq9bctiaQgRIoLCPBNhb6LEidTuWQS7OzPYCDBMuMX1t/fMvi4r3q/g==}
+  /@sveltejs/kit@2.7.1(@sveltejs/vite-plugin-svelte@3.1.2)(svelte@4.2.19)(vite@5.4.9):
+    resolution: {integrity: sha512-TBVnkwgYQT3EafGQK6Eyh5FlLEBlRhCmqPTwcdOs+QdnyUc3eCAxRWtXlFxIWtmk6pqv11zdng8qTpThdTogew==}
     engines: {node: '>=18.13'}
     hasBin: true
     requiresBuild: true
@@ -797,7 +797,7 @@ packages:
       mrmime: 2.0.0
       sade: 1.8.1
       set-cookie-parser: 2.6.0
-      sirv: 2.0.4
+      sirv: 3.0.0
       svelte: 4.2.19
       tiny-glob: 0.2.9
       vite: 5.4.9(@types/node@20.16.11)
@@ -2162,9 +2162,9 @@ packages:
       is-arrayish: 0.3.2
     dev: false
 
-  /sirv@2.0.4:
-    resolution: {integrity: sha512-94Bdh3cC2PKrbgSOUqTiGPWVZeSiXfKOVZNJniWoqrWrRkB1CJzBU3NEbiTsPcYy1lDsANA/THzS+9WBiy5nfQ==}
-    engines: {node: '>= 10'}
+  /sirv@3.0.0:
+    resolution: {integrity: sha512-BPwJGUeDaDCHihkORDchNyyTvWFhcusy1XMmhEVTQTwGeybFbp8YEmB+njbPnth1FibULBSBVwCQni25XlCUDg==}
+    engines: {node: '>=18'}
     dependencies:
       '@polka/url': 1.0.0-next.24
       mrmime: 2.0.0
