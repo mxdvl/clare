@@ -69,8 +69,8 @@ dependencies:
     specifier: 5.1.4
     version: 5.1.4(postcss@8.4.44)(svelte@4.2.19)(typescript@5.6.3)
   tslib:
-    specifier: 2.8.0
-    version: 2.8.0
+    specifier: 2.8.1
+    version: 2.8.1
   typescript:
     specifier: 5.6.3
     version: 5.6.3
@@ -97,7 +97,7 @@ packages:
     resolution: {integrity: sha512-bV21/9LQmcQeCPEg3BDFtvwL6cwiTMksYNWQQ4KOxCZikEGalWtenoZ0wCiukJINlGCIi2KXx01g4FoH/LxpzQ==}
     requiresBuild: true
     dependencies:
-      tslib: 2.8.0
+      tslib: 2.8.1
     dev: false
     optional: true
 
@@ -2376,8 +2376,8 @@ packages:
       typescript: 5.6.3
     dev: false
 
-  /tslib@2.8.0:
-    resolution: {integrity: sha512-jWVzBLplnCmoaTr13V9dYbiQ99wvZRd0vNWaDRg+aVYRcjDF3nDksxFDE/+fkXnKhpnUUkmx5pK/v8mCtLVqZA==}
+  /tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
     dev: false
 
   /type-check@0.4.0:
