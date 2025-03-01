@@ -21,8 +21,8 @@ dependencies:
     specifier: 6.0.0
     version: 6.0.0
   '@types/node':
-    specifier: 20.17.17
-    version: 20.17.17
+    specifier: 22.13.8
+    version: 22.13.8
   '@types/sharp':
     specifier: ^0.32.0
     version: 0.32.0
@@ -76,7 +76,7 @@ dependencies:
     version: 5.7.3
   vite:
     specifier: 5.4.14
-    version: 5.4.14(@types/node@20.17.17)
+    version: 5.4.14(@types/node@22.13.8)
 
 packages:
 
@@ -811,7 +811,7 @@ packages:
       set-cookie-parser: 2.6.0
       sirv: 3.0.0
       svelte: 4.2.19
-      vite: 5.4.14(@types/node@20.17.17)
+      vite: 5.4.14(@types/node@22.13.8)
     dev: false
 
   /@sveltejs/vite-plugin-svelte-inspector@2.1.0(@sveltejs/vite-plugin-svelte@3.1.2)(svelte@4.2.19)(vite@5.4.14):
@@ -825,7 +825,7 @@ packages:
       '@sveltejs/vite-plugin-svelte': 3.1.2(svelte@4.2.19)(vite@5.4.14)
       debug: 4.3.4
       svelte: 4.2.19
-      vite: 5.4.14(@types/node@20.17.17)
+      vite: 5.4.14(@types/node@22.13.8)
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -844,7 +844,7 @@ packages:
       magic-string: 0.30.10
       svelte: 4.2.19
       svelte-hmr: 0.16.0(svelte@4.2.19)
-      vite: 5.4.14(@types/node@20.17.17)
+      vite: 5.4.14(@types/node@22.13.8)
       vitefu: 0.2.5(vite@5.4.14)
     transitivePeerDependencies:
       - supports-color
@@ -873,10 +873,10 @@ packages:
       marked: 12.0.2
     dev: false
 
-  /@types/node@20.17.17:
-    resolution: {integrity: sha512-/WndGO4kIfMicEQLTi/mDANUu/iVUhT7KboZPdEqqHQ4aTS+3qT3U5gIqWDFV+XouorjfgGqvKILJeHhuQgFYg==}
+  /@types/node@22.13.8:
+    resolution: {integrity: sha512-G3EfaZS+iOGYWLLRCEAXdWK9my08oHNZ+FHluRiggIYJPOXzhOiDgpVCUHaUvyIC5/fj7C/p637jdzC666AOKQ==}
     dependencies:
-      undici-types: 6.19.8
+      undici-types: 6.20.0
     dev: false
 
   /@types/pug@2.0.10:
@@ -2390,8 +2390,8 @@ packages:
     hasBin: true
     dev: false
 
-  /undici-types@6.19.8:
-    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
+  /undici-types@6.20.0:
+    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
     dev: false
 
   /uri-js@4.4.1:
@@ -2404,7 +2404,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: false
 
-  /vite@5.4.14(@types/node@20.17.17):
+  /vite@5.4.14(@types/node@22.13.8):
     resolution: {integrity: sha512-EK5cY7Q1D8JNhSaPKVK4pwBFvaTmZxEnoKXLG/U9gmdDcihQGNzFlgIvaxezFR4glP1LsuiedwMBqCXH3wZccA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -2435,7 +2435,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.17.17
+      '@types/node': 22.13.8
       esbuild: 0.21.5
       postcss: 8.4.44
       rollup: 4.21.0
@@ -2451,7 +2451,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.4.14(@types/node@20.17.17)
+      vite: 5.4.14(@types/node@22.13.8)
     dev: false
 
   /which@2.0.2:
