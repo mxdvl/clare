@@ -8,8 +8,13 @@
 
 	import "@fontsource/nunito/400.css";
 	import "@fontsource/nunito/600.css";
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
 
-	$: closed = $page.url.pathname === "/" && $page.error === null;
+	let { children }: Props = $props();
+
+	let closed = $derived($page.url.pathname === "/" && $page.error === null);
 
 	let node: HTMLElement;
 	let images: NodeListOf<HTMLImageElement>;
@@ -75,8 +80,8 @@
 	<Cover {closed} />
 
 	{#if !closed}
-		<main class="page" use:resize on:resize={handlePageResize}>
-			<slot />
+		<main class="page" use:resize onresize={handlePageResize}>
+			{@render children?.()}
 		</main>
 	{/if}
 </div>

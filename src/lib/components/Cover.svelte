@@ -1,5 +1,9 @@
 <script lang="ts">
-	export let closed: boolean;
+	interface Props {
+		closed: boolean;
+	}
+
+	let { closed }: Props = $props();
 </script>
 
 <style>

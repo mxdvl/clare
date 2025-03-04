@@ -1,10 +1,15 @@
 <script lang="ts">
 	import "@fontsource/nunito/400.css";
 	import "@fontsource/nunito/600.css";
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
+
+	let { children }: Props = $props();
 </script>
 
 <main>
-	<slot />
+	{@render children?.()}
 </main>
 
 <style>

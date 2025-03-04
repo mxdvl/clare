@@ -2,8 +2,8 @@
 	const formatted = (date: Date): `${string}.${string}` =>
 		`${date.getUTCMonth() + 1}.${date.getUTCFullYear()}`;
 
-	export let data;
-	$: ({ posts } = data);
+	let { data } = $props();
+	let { posts } = $derived(data);
 </script>
 
 <svelte:head>
@@ -17,7 +17,7 @@
 		{#each posts as { slug, title, date }}
 			<li>
 				<a rel="prefetch" href="words/{slug}">{title}</a>
-				<span class="dots" />
+				<span class="dots"></span>
 				<time datetime={new Date(date).toISOString().slice(0, 10)}
 					>{formatted(new Date(date))}</time
 				>
