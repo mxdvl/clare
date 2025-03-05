@@ -1,8 +1,8 @@
 ---
 title: 21st Century Muse
 date: 2020-10-01T00:00:00+01:00
-
 ---
+
 **21st Century Muse**
 
 Dams break

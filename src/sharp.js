@@ -13,8 +13,7 @@ for (const size of sizes) {
 	try {
 		const { size: bits } = await sharp(resolve(folder, "favicon.svg"), {
 			density: DENSITY * (size / CANVAS),
-		})
-			.toFile(resolve(folder, file))
+		}).toFile(resolve(folder, file));
 		console.info(`${file} - ${bits} bits`);
 	} catch (error) {
 		console.warn("Something went wrong", error);

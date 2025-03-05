@@ -1,8 +1,8 @@
 ---
 title: Snow
 date: 2021-03-11T15:00:00.000+00:00
-
 ---
+
 **Snow**
 
 Like you and I, it differs from day-to-day

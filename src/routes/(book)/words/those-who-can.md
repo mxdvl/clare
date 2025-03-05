@@ -1,8 +1,8 @@
 ---
-title: 'Those Who Can '
+title: "Those Who Can "
 date: 2020-08-27T18:00:00.000+01:00
-
 ---
+
 Looking to shift careers, the familiar phrase of ‘…but you’re just a teacher’ has started to creep in.
 
 A person I believe who has added to this doubting discourse of mine, and many others, is George.
