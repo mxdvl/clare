@@ -34,7 +34,7 @@ const getAllPosts = (): Post[] =>
 		})
 		.sort(
 			(first, second) =>
-				new Date(second.date).getTime() - new Date(first.date).getTime()
+				new Date(second.date).getTime() - new Date(first.date).getTime(),
 		);
 
 export const load: PageServerLoad = async () => {

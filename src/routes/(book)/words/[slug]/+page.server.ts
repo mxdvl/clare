@@ -15,7 +15,7 @@ export const load: PageServerLoad = async ({ params }) => {
 		fileURLToPath(import.meta.url),
 		"..",
 		"..",
-		`${slug}.md`
+		`${slug}.md`,
 	);
 
 	const md = readFileSync(filename, "utf-8");
