@@ -1,8 +1,6 @@
 <script lang="ts">
 	import { page } from "$app/stores";
 	import { onMount } from "svelte";
-	// @ts-expect-error -- no type definition
-	import resize from "svelte-actions-resize";
 	import Cover from "$lib/components/Cover.svelte";
 	import Nav from "$lib/components/Nav.svelte";
 
@@ -80,7 +78,7 @@
 	<Cover {closed} />
 
 	{#if !closed}
-		<main class="page" use:resize onresize={handlePageResize}>
+		<main class="page" onresize={handlePageResize}>
 			{@render children?.()}
 		</main>
 	{/if}
