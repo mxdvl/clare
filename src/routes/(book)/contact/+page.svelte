@@ -1,10 +1,12 @@
 <script lang="ts">
-	let message: string = "Hey Clare,";
-	let email: string;
+	import { preventDefault } from 'svelte/legacy';
+
+	let message: string = $state("Hey Clare,");
+	let email: string = $state();
 
 	const url = "https://formspree.io/f/mayljwap";
 
-	let submitted: boolean = false;
+	let submitted: boolean = $state(false);
 
 	const sendMessage = () => {
 		fetch(url, {
@@ -37,14 +39,14 @@
 	<br />
 	<blockquote>Thank you for your message!</blockquote>
 {:else}
-	<form action={url} method="POST" on:submit|preventDefault={sendMessage}>
+	<form action={url} method="POST" onsubmit={preventDefault(sendMessage)}>
 		<label>
 			<p>Your email:</p>
 			<input type="text" name="_replyto" required bind:value={email} />
 		</label>
 		<label>
 			<p>Your message:</p>
-			<textarea name="message" bind:value={message} />
+			<textarea name="message" bind:value={message}></textarea>
 		</label>
 		<button type="submit">Send</button>
 	</form>

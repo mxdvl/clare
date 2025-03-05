@@ -1,8 +1,8 @@
 ---
 title: "#notallmen"
 date: 2021-03-13T00:00:00.000+00:00
-
 ---
+
 Not all men, they gripe  
 Not all men, they snipe  
 From the comfort of their computer-lit rooms.  

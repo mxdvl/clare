@@ -82,9 +82,13 @@ main {
 	background-position: 1rem 6.8125rem;
 	background-size: calc(100% - 2rem);
 
-	box-shadow: 4px 4px 0 -2px var(--paper), 4px 4px 0 var(--text),
-		-4px 8px 0 -2px var(--paper), -4px 8px 0 var(--text),
-		0 12px 0 -2px var(--paper), 0 12px 0 var(--text);
+	box-shadow:
+		4px 4px 0 -2px var(--paper),
+		4px 4px 0 var(--text),
+		-4px 8px 0 -2px var(--paper),
+		-4px 8px 0 var(--text),
+		0 12px 0 -2px var(--paper),
+		0 12px 0 var(--text);
 }
 
 main img,
