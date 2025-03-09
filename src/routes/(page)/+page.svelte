@@ -59,8 +59,8 @@
 </ul>
 
 <p>
-	If you want to get in touch, it’s <a href="mailto:hey@clare.ink"
-		>hey@clare.ink</a
+	If you want to get in touch, it’s <a href="mailto:clarelwelch@gmail.com"
+		>clarelwelch@gmail.com</a
 	>
 	or you can find me
 	<a href="http://linkedin.com/in/clare-welch">on LinkedIn</a>.
