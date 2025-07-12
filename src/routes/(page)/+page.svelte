@@ -11,14 +11,17 @@
 </p>
 
 <p>
-  Having worked extensively in education and abroad, my experience spans a
-  breadth of cultures and age groups. I bring a wide skill set to the user
-  researcher role. People have always been at the centre of my work. From
-  understanding the way people learn, to working with diverse groups in the UK
-  and abroad, I am a strong advocate of user centred design.
+  5 years experience working as a user researcher in the public and private
+  sector.
 </p>
 
-<p>Passionate about creating spaces where people feel they belong.</p>
+<p>
+  Having previously worked extensively in education and abroad, my experience
+  spans a breadth of cultures and age groups. I bring a wide skill set to the
+  user researcher role. People have always been at the centre of my work. A
+  strong advocate of user centred design and passionate about creating services
+  that include and enable users.
+</p>
 
 <h2>Read some of my recent posts:</h2>
 
