@@ -18,7 +18,7 @@
   "dependencies": {
     "@fontsource/nunito": "5.2.6",
     "@sveltejs/adapter-auto": "6.0.1",
-    "@sveltejs/kit": "2.24.0",
+    "@sveltejs/kit": "2.25.1",
     "@sveltejs/vite-plugin-svelte": "5.1.1",
     "@types/node": "22.16.5",
     "@typescript-eslint/eslint-plugin": "8.37.0",
