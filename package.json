@@ -36,7 +36,7 @@
     "svelte-preprocess": "6.0.3",
     "tslib": "2.8.1",
     "typescript": "5.9.2",
-    "vite": "6.3.5"
+    "vite": "6.3.6"
   },
   "engines": {
     "node": "22.18.0"
