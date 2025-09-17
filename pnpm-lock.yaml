@@ -42,8 +42,8 @@ importers:
         specifier: 4.0.3
         version: 4.0.3
       marked:
-        specifier: 16.2.1
-        version: 16.2.1
+        specifier: 16.3.0
+        version: 16.3.0
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -1016,8 +1016,8 @@ packages:
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
 
-  marked@16.2.1:
-    resolution: {integrity: sha512-r3UrXED9lMlHF97jJByry90cwrZBBvZmjG1L68oYfuPMW+uDTnuMbyJDymCWwbTE+f+3LhpNDKfpR3a3saFyjA==}
+  marked@16.3.0:
+    resolution: {integrity: sha512-K3UxuKu6l6bmA5FUwYho8CfJBlsUWAooKtdGgMcERSpF7gcBUrCGsLH7wDaaNOzwq18JzSUDyoEb/YsrqMac3w==}
     engines: {node: '>= 20'}
     hasBin: true
 
@@ -2224,7 +2224,7 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  marked@16.2.1: {}
+  marked@16.3.0: {}
 
   merge2@1.4.1: {}
 
