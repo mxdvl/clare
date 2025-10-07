@@ -13,16 +13,16 @@ importers:
         version: 5.2.7
       '@sveltejs/adapter-auto':
         specifier: 6.1.1
-        version: 6.1.1(@sveltejs/kit@2.43.5(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7)))(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7)))
+        version: 6.1.1(@sveltejs/kit@2.43.5(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8)))(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8)))
       '@sveltejs/kit':
         specifier: 2.43.5
-        version: 2.43.5(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7)))(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7))
+        version: 2.43.5(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8)))(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8))
       '@sveltejs/vite-plugin-svelte':
         specifier: 5.1.1
-        version: 5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7))
+        version: 5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8))
       '@types/node':
-        specifier: 22.18.7
-        version: 22.18.7
+        specifier: 22.18.8
+        version: 22.18.8
       '@typescript-eslint/eslint-plugin':
         specifier: 8.45.0
         version: 8.45.0(@typescript-eslint/parser@8.45.0(eslint@9.36.0)(typescript@5.9.3))(eslint@9.36.0)(typescript@5.9.3)
@@ -70,7 +70,7 @@ importers:
         version: 5.9.3
       vite:
         specifier: 6.3.6
-        version: 6.3.6(@types/node@22.18.7)
+        version: 6.3.6(@types/node@22.18.8)
 
 packages:
 
@@ -595,8 +595,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@22.18.7':
-    resolution: {integrity: sha512-3E97nlWEVp2V6J7aMkR8eOnw/w0pArPwf/5/W0865f+xzBoGL/ZuHkTAKAGN7cOWNwd+sG+hZOqj+fjzeHS75g==}
+  '@types/node@22.18.8':
+    resolution: {integrity: sha512-pAZSHMiagDR7cARo/cch1f3rXy0AEXwsVsVH09FcyeJVAzCnGgmYis7P3JidtTUjyadhTeSo8TgRPswstghDaw==}
 
   '@typescript-eslint/eslint-plugin@8.45.0':
     resolution: {integrity: sha512-HC3y9CVuevvWCl/oyZuI47dOeDF9ztdMEfMH8/DW/Mhwa9cCLnK1oD7JoTVGW/u7kFzNZUKUoyJEqkaJh5y3Wg==}
@@ -1702,15 +1702,15 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
-  '@sveltejs/adapter-auto@6.1.1(@sveltejs/kit@2.43.5(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7)))(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7)))':
+  '@sveltejs/adapter-auto@6.1.1(@sveltejs/kit@2.43.5(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8)))(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8)))':
     dependencies:
-      '@sveltejs/kit': 2.43.5(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7)))(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7))
+      '@sveltejs/kit': 2.43.5(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8)))(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8))
 
-  '@sveltejs/kit@2.43.5(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7)))(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7))':
+  '@sveltejs/kit@2.43.5(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8)))(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8))':
     dependencies:
       '@standard-schema/spec': 1.0.0
       '@sveltejs/acorn-typescript': 1.0.5(acorn@8.15.0)
-      '@sveltejs/vite-plugin-svelte': 5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7))
+      '@sveltejs/vite-plugin-svelte': 5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8))
       '@types/cookie': 0.6.0
       acorn: 8.15.0
       cookie: 0.6.0
@@ -1723,27 +1723,27 @@ snapshots:
       set-cookie-parser: 2.7.1
       sirv: 3.0.1
       svelte: 5.39.7
-      vite: 6.3.6(@types/node@22.18.7)
+      vite: 6.3.6(@types/node@22.18.8)
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7)))(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7))':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8)))(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7))
+      '@sveltejs/vite-plugin-svelte': 5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8))
       debug: 4.4.1
       svelte: 5.39.7
-      vite: 6.3.6(@types/node@22.18.7)
+      vite: 6.3.6(@types/node@22.18.8)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7))':
+  '@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7)))(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.7))
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8)))(svelte@5.39.7)(vite@6.3.6(@types/node@22.18.8))
       debug: 4.4.1
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.17
       svelte: 5.39.7
-      vite: 6.3.6(@types/node@22.18.7)
-      vitefu: 1.0.6(vite@6.3.6(@types/node@22.18.7))
+      vite: 6.3.6(@types/node@22.18.8)
+      vitefu: 1.0.6(vite@6.3.6(@types/node@22.18.8))
     transitivePeerDependencies:
       - supports-color
 
@@ -1753,7 +1753,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@22.18.7':
+  '@types/node@22.18.8':
     dependencies:
       undici-types: 6.21.0
 
@@ -2482,7 +2482,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite@6.3.6(@types/node@22.18.7):
+  vite@6.3.6(@types/node@22.18.8):
     dependencies:
       esbuild: 0.25.0
       fdir: 6.4.4(picomatch@4.0.2)
@@ -2491,12 +2491,12 @@ snapshots:
       rollup: 4.34.9
       tinyglobby: 0.2.13
     optionalDependencies:
-      '@types/node': 22.18.7
+      '@types/node': 22.18.8
       fsevents: 2.3.3
 
-  vitefu@1.0.6(vite@6.3.6(@types/node@22.18.7)):
+  vitefu@1.0.6(vite@6.3.6(@types/node@22.18.8)):
     optionalDependencies:
-      vite: 6.3.6(@types/node@22.18.7)
+      vite: 6.3.6(@types/node@22.18.8)
 
   which@2.0.2:
     dependencies:
