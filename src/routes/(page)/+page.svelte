@@ -4,6 +4,8 @@
 
 <h1>Nice to meet you. 👋</h1>
 
+<img class="corn" src="/clare-corn.jpg" alt="Clare in front of a corn field" />
+
 <p class="bold">
   Senior User Researcher Consultant working at <a
     href="https://opencastsoftware.com/">Opencast</a
@@ -103,5 +105,17 @@
 
   li {
     padding-bottom: 1rem;
+  }
+
+  .corn {
+    border: 6px solid var(--paper);
+    outline: 2px solid var(--lines);
+    rotate: 3deg;
+    float: right;
+    width: 8rem;
+    height: 10rem;
+    position: relative;
+    /*top: -1rem;*/
+    margin: -1rem 0.125rem 1rem 1rem;
   }
 </style>
