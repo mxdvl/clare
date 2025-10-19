@@ -23,7 +23,7 @@
   that include and enable users.
 </p>
 
-<h2>Read some of my recent posts:</h2>
+<h2>Check out recent work and musings:</h2>
 
 <ul>
   <li>
@@ -32,6 +32,12 @@
       >How a user-centred approach is improving principles for sustainable
       services
     </a> March 2025
+  </li>
+  <li>
+    Led user research <a
+      href="https://opencastsoftware.com/clients/improving-support-for-military-veterans-and-their-families/"
+      >improving support for military veterans and their families
+    </a> 2024
   </li>
   <li>
     <a
