@@ -1,0 +1,19 @@
+{
+  "$schema": "https://cms.pages.dev/schema.json",
+  "collections": [
+    {
+      "id": "homepage",
+      "label": "Homepage",
+      "type": "singleton",
+      "format": "markdown",
+      "path": "src/content/home.md",
+      "fields": [
+        {
+          "id": "body",
+          "label": "Page content",
+          "type": "markdown"
+        }
+      ]
+    }
+  ]
+}
