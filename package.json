@@ -20,7 +20,7 @@
     "@sveltejs/adapter-auto": "6.1.1",
     "@sveltejs/kit": "2.53.1",
     "@sveltejs/vite-plugin-svelte": "5.1.1",
-    "@types/node": "22.19.11",
+    "@types/node": "24.11.0",
     "@typescript-eslint/eslint-plugin": "8.56.1",
     "@typescript-eslint/parser": "8.56.1",
     "eslint": "9.39.3",
@@ -39,7 +39,7 @@
     "vite": "6.4.1"
   },
   "engines": {
-    "node": "22.22.0"
+    "node": "24.14.0"
   },
   "packageManager": "pnpm@10.30.2",
   "prettier": {},
