@@ -41,7 +41,7 @@
   "engines": {
     "node": "22.22.2"
   },
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@10.33.2",
   "prettier": {},
   "pnpm": {
     "onlyBuiltDependencies": [
