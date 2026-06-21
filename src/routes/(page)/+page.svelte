@@ -4,7 +4,7 @@
 
 <h1>Nice to meet you. 👋</h1>
 
-<img class="corn" src="/clare-corn.jpg" alt="Clare in front of a corn field" />
+<img class="corn" src="/clare-broadstairs.jpg" alt="Clare in front of Broadstairs cliff" />
 
 <p class="bold">
   Senior User Researcher Consultant working at <a
